@@ -1,0 +1,45 @@
+{
+    "models": ["1", "2", "3"],
+    "object_type": "literal",
+    "outputs": "./outputs/",
+    "linking_predicate": "owl:PSreeAlso",
+    "keywords_label": [],
+    "mapping_ontocolumn": {
+        "_comment": "",
+        "subject": "event",
+        "predicate": {
+            "eventLabel": "label",
+            "date": "date"
+        }
+    },
+    "topic_modeling": {
+        "accepted_predicates": ["http://purl.obolibrary.org/obo/RO_0002162"],
+        "accepted_values": []
+    },
+    "endpoints": {
+        "GENE_OR_GENE_PRODUCT": {
+            "api": "http://sparql.southgreen.fr/?default-graph-uri=&query={query}&format=application%2Fsparql-results%2Bjson&timeout=0&run=+Run+Query+",
+            "params": "{query}",
+            "response_field": "subject",
+            "query": "   define input:inference \"http://www.w3.org/2002/07/owl#\" select ?s1 as ?subject, (bif:search_excerpt (bif:vector ('{query}'), ?o1)) as ?c2, ?sc, ?rank, ?g where {{{ select ?s1, (?sc * 3e-1) as ?sc, ?o1, (sql:rnk_scale (<LONG::IRI_RANK> (?s1))) as ?rank, ?g where    {     quad map virtrdf:DefaultQuadMap     {       graph ?g       {          ?s1 ?s1textp ?o1 .        ?o1 bif:contains  '\"{query}\"'  option (score ?sc).}}} order by desc (?sc * 3e-1 + sql:rnk_scale (<LONG::IRI_RANK> (?s1)))  limit 20  offset 0 }}}",
+            "verb": "GET",
+            "status": "1"
+        },
+        "RESOLVE_SUBJECT": {
+            "api": "http://sparql.southgreen.fr/",
+            "params": [
+                "query"
+            ],
+            "query": "SELECT ?p ?o WHERE { ?dontouch ?p ?o .}",
+            "verb": "POST",
+            "status": "1",
+            "headers": {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/74.0.3729.169 Chrome/74.0.3729.169 Safari/537.36",
+                "Cookie": "JSESSIONID=08D6B07EF2F0FB0DA9FE1F52E8D684B2; _pk_id.1.bace=12e301ac62adf632.1638954882.",
+                "Accept": "application/sparql-results+json,*/*;q=0.9",
+                "origin": "http://agrold.southgreen.fr"
+            }
+        }
+    }
+}

@@ -1,0 +1,2184 @@
+Query 1
+
+            DELETE { <interpro:IPR024578>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024578" .  }
+            INSERT {    <interpro:IPR024578>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024578" .   }
+            WHERE   { 
+                <interpro:IPR024578>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024578" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR013383>  <http://www.w3.org/2000/01/rdf-schema#label>    "CRISPR-associated protein DxTHG, conserved site" .  }
+            INSERT {    <interpro:IPR013383>  <http://www.w3.org/2000/01/rdf-schema#label>    "CRISPR-associated protein DxTHG, conserved site" .   }
+            WHERE   { 
+                <interpro:IPR013383>  <http://www.w3.org/2000/01/rdf-schema#label>    "CRISPR-associated protein DxTHG, conserved site" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR041571>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF5576" .  }
+            INSERT {    <interpro:IPR041571>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF5576" .   }
+            WHERE   { 
+                <interpro:IPR041571>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF5576" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR033036>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033036" .  }
+            INSERT {    <interpro:IPR033036>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033036" .   }
+            WHERE   { 
+                <interpro:IPR033036>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033036" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR012653>  <http://purl.org/dc/elements/1.1/identifier>    "IPR012653" .  }
+            INSERT {    <interpro:IPR012653>  <http://purl.org/dc/elements/1.1/identifier>    "IPR012653" .   }
+            WHERE   { 
+                <interpro:IPR012653>  <http://purl.org/dc/elements/1.1/identifier>    "IPR012653" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR024578>  <http://www.w3.org/2000/01/rdf-schema#label>  "Homez" . }
+Query 2
+INSERT DATA { <interpro:IPR024578>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/40148> . }
+Query 2
+INSERT DATA { <interpro:IPR024578>  <http://www.w3.org/2000/01/rdf-schema#label>  "homeobox" . }
+Query 1
+
+            DELETE { <interpro:IPR024578>  <http://www.w3.org/2000/01/rdf-schema#label>    "Homez, homeobox domain" .  }
+            INSERT {    <interpro:IPR024578>  <http://www.w3.org/2000/01/rdf-schema#label>    "Homez, http://identifiers.org/taxonomy/40148  domain" .   }
+            WHERE   { 
+                <interpro:IPR024578>  <http://www.w3.org/2000/01/rdf-schema#label>    "Homez, homeobox domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Homez>  <http://www.w3.org/2000/01/rdf-schema#label>  "Homez" . }
+Query 2
+INSERT DATA { <interpro:IPR024578>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Homez> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0D9Z587>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/40148> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0D9Z587>  <http://www.w3.org/2000/01/rdf-schema#label>  "homeobox" . }
+Query 2
+INSERT DATA { <interpro:IPR024578>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A0D9Z587> . }
+Query 3
+INSERT DATA { <interpro:IPR024578>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Homez>    "Homez" . }
+Query 3
+INSERT DATA { <interpro:IPR024578>  <http://purl.uniprot.org/uniprot/A0A0D9Z587>    <http://identifiers.org/taxonomy/40148> . }
+Query 3
+INSERT DATA { <interpro:IPR024578>  <http://purl.uniprot.org/uniprot/A0A0D9Z587>    "homeobox" . }
+Query 2
+INSERT DATA { <interpro:IPR014159>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3885> . }
+Query 2
+INSERT DATA { <interpro:IPR014159>  <http://www.w3.org/2000/01/rdf-schema#label>  "alpha subunit" . }
+Query 1
+
+            DELETE { <interpro:IPR014159>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protocatechuate 4,5-dioxygenase, alpha subunit" .  }
+            INSERT {    <interpro:IPR014159>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protocatechuate 4,5-dioxygenase, http://identifiers.org/taxonomy/3885 " .   }
+            WHERE   { 
+                <interpro:IPR014159>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protocatechuate 4,5-dioxygenase, alpha subunit" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q9S9E2>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3885> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q9S9E2>  <http://www.w3.org/2000/01/rdf-schema#label>  "alpha subunit" . }
+Query 2
+INSERT DATA { <interpro:IPR014159>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/Q9S9E2> . }
+Query 3
+INSERT DATA { <interpro:IPR014159>  <http://purl.uniprot.org/uniprot/Q9S9E2>    <http://identifiers.org/taxonomy/3885> . }
+Query 3
+INSERT DATA { <interpro:IPR014159>  <http://purl.uniprot.org/uniprot/Q9S9E2>    "alpha subunit" . }
+Query 1
+
+            DELETE { <interpro:IPR030231>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030231" .  }
+            INSERT {    <interpro:IPR030231>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030231" .   }
+            WHERE   { 
+                <interpro:IPR030231>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030231" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR033503>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein Gawky" .  }
+            INSERT {    <interpro:IPR033503>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein Gawky" .   }
+            WHERE   { 
+                <interpro:IPR033503>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein Gawky" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR011722>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011722" .  }
+            INSERT {    <interpro:IPR011722>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011722" .   }
+            WHERE   { 
+                <interpro:IPR011722>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011722" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR031688>  <http://purl.org/dc/elements/1.1/identifier>    "IPR031688" .  }
+            INSERT {    <interpro:IPR031688>  <http://purl.org/dc/elements/1.1/identifier>    "IPR031688" .   }
+            WHERE   { 
+                <interpro:IPR031688>  <http://purl.org/dc/elements/1.1/identifier>    "IPR031688" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR040629>  <http://purl.org/dc/elements/1.1/identifier>    "IPR040629" .  }
+            INSERT {    <interpro:IPR040629>  <http://purl.org/dc/elements/1.1/identifier>    "IPR040629" .   }
+            WHERE   { 
+                <interpro:IPR040629>  <http://purl.org/dc/elements/1.1/identifier>    "IPR040629" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR001916>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3880> . }
+Query 2
+INSERT DATA { <interpro:IPR001916>  <http://www.w3.org/2000/01/rdf-schema#label>  "Glycoside hydrolase" . }
+Query 1
+
+            DELETE { <interpro:IPR001916>  <http://www.w3.org/2000/01/rdf-schema#label>    "Glycoside hydrolase, family 22" .  }
+            INSERT {    <interpro:IPR001916>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3880 , family 22" .   }
+            WHERE   { 
+                <interpro:IPR001916>  <http://www.w3.org/2000/01/rdf-schema#label>    "Glycoside hydrolase, family 22" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A396IEU5>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3880> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A396IEU5>  <http://www.w3.org/2000/01/rdf-schema#label>  "Glycoside hydrolase" . }
+Query 2
+INSERT DATA { <interpro:IPR001916>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A396IEU5> . }
+Query 3
+INSERT DATA { <interpro:IPR001916>  <http://purl.uniprot.org/uniprot/A0A396IEU5>    <http://identifiers.org/taxonomy/3880> . }
+Query 3
+INSERT DATA { <interpro:IPR001916>  <http://purl.uniprot.org/uniprot/A0A396IEU5>    "Glycoside hydrolase" . }
+Query 1
+
+            DELETE { <interpro:IPR024161>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024161" .  }
+            INSERT {    <interpro:IPR024161>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024161" .   }
+            WHERE   { 
+                <interpro:IPR024161>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024161" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR029904>  <http://www.w3.org/2000/01/rdf-schema#label>  "Spire2" . }
+Query 1
+
+            DELETE { <interpro:IPR029904>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein Spire2" .  }
+            INSERT {    <interpro:IPR029904>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein Spire2" .   }
+            WHERE   { 
+                <interpro:IPR029904>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein Spire2" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Spire2>  <http://www.w3.org/2000/01/rdf-schema#label>  "Spire2" . }
+Query 2
+INSERT DATA { <interpro:IPR029904>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Spire2> . }
+Query 3
+INSERT DATA { <interpro:IPR029904>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Spire2>    "Spire2" . }
+Query 2
+INSERT DATA { <interpro:IPR038124>  <http://www.w3.org/2000/01/rdf-schema#label>  "Beta-retroviral matrix" . }
+Query 1
+
+            DELETE { <interpro:IPR038124>  <http://www.w3.org/2000/01/rdf-schema#label>    "Beta-retroviral matrix superfamily" .  }
+            INSERT {    <interpro:IPR038124>  <http://www.w3.org/2000/01/rdf-schema#label>    "Beta-retroviral matrix superfamily" .   }
+            WHERE   { 
+                <interpro:IPR038124>  <http://www.w3.org/2000/01/rdf-schema#label>    "Beta-retroviral matrix superfamily" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/CELLULAR_COMPONENT/Beta-retroviral_matrix>  <http://www.w3.org/2000/01/rdf-schema#label>  "Beta-retroviral matrix" . }
+Query 2
+INSERT DATA { <interpro:IPR038124>  <owl:PSreeAlso>  <http://entities.org/name/CELLULAR_COMPONENT/Beta-retroviral_matrix> . }
+Query 3
+INSERT DATA { <interpro:IPR038124>  <http://entities.org/name/CELLULAR_COMPONENT/Beta-retroviral_matrix>    "Beta-retroviral matrix" . }
+Query 1
+
+            DELETE { <interpro:IPR037555>  <http://purl.org/dc/elements/1.1/identifier>    "IPR037555" .  }
+            INSERT {    <interpro:IPR037555>  <http://purl.org/dc/elements/1.1/identifier>    "IPR037555" .   }
+            WHERE   { 
+                <interpro:IPR037555>  <http://purl.org/dc/elements/1.1/identifier>    "IPR037555" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR001480>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <interpro:IPR001480>  <http://www.w3.org/2000/01/rdf-schema#label>  "Bulb-type lectin" . }
+Query 1
+
+            DELETE { <interpro:IPR001480>  <http://www.w3.org/2000/01/rdf-schema#label>    "Bulb-type lectin domain" .  }
+            INSERT {    <interpro:IPR001480>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3702  domain" .   }
+            WHERE   { 
+                <interpro:IPR001480>  <http://www.w3.org/2000/01/rdf-schema#label>    "Bulb-type lectin domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A178U7R3>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A178U7R3>  <http://www.w3.org/2000/01/rdf-schema#label>  "Bulb-type lectin" . }
+Query 2
+INSERT DATA { <interpro:IPR001480>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A178U7R3> . }
+Query 3
+INSERT DATA { <interpro:IPR001480>  <http://purl.uniprot.org/uniprot/A0A178U7R3>    <http://identifiers.org/taxonomy/3702> . }
+Query 3
+INSERT DATA { <interpro:IPR001480>  <http://purl.uniprot.org/uniprot/A0A178U7R3>    "Bulb-type lectin" . }
+Query 2
+INSERT DATA { <interpro:IPR000757>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3076> . }
+Query 2
+INSERT DATA { <interpro:IPR000757>  <http://www.w3.org/2000/01/rdf-schema#label>  "Glycoside hydrolase family 16" . }
+Query 1
+
+            DELETE { <interpro:IPR000757>  <http://www.w3.org/2000/01/rdf-schema#label>    "Glycoside hydrolase family 16" .  }
+            INSERT {    <interpro:IPR000757>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3076 " .   }
+            WHERE   { 
+                <interpro:IPR000757>  <http://www.w3.org/2000/01/rdf-schema#label>    "Glycoside hydrolase family 16" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A2P6TVX0>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3076> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A2P6TVX0>  <http://www.w3.org/2000/01/rdf-schema#label>  "Glycoside hydrolase family 16" . }
+Query 2
+INSERT DATA { <interpro:IPR000757>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A2P6TVX0> . }
+Query 3
+INSERT DATA { <interpro:IPR000757>  <http://purl.uniprot.org/uniprot/A0A2P6TVX0>    <http://identifiers.org/taxonomy/3076> . }
+Query 3
+INSERT DATA { <interpro:IPR000757>  <http://purl.uniprot.org/uniprot/A0A2P6TVX0>    "Glycoside hydrolase family 16" . }
+Query 2
+INSERT DATA { <interpro:IPR007288>  <http://www.w3.org/2000/01/rdf-schema#label>  "Influenzavirus B" . }
+Query 2
+INSERT DATA { <interpro:IPR007288>  <http://www.w3.org/2000/01/rdf-schema#label>  "glycoprotein NB" . }
+Query 1
+
+            DELETE { <interpro:IPR007288>  <http://www.w3.org/2000/01/rdf-schema#label>    "Influenzavirus B, glycoprotein NB" .  }
+            INSERT {    <interpro:IPR007288>  <http://www.w3.org/2000/01/rdf-schema#label>    "Influenzavirus B, glycoprotein NB" .   }
+            WHERE   { 
+                <interpro:IPR007288>  <http://www.w3.org/2000/01/rdf-schema#label>    "Influenzavirus B, glycoprotein NB" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/Influenzavirus_B>  <http://www.w3.org/2000/01/rdf-schema#label>  "Influenzavirus B" . }
+Query 2
+INSERT DATA { <interpro:IPR007288>  <owl:PSreeAlso>  <http://entities.org/name/ORGANISM/Influenzavirus_B> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/glycoprotein_NB>  <http://www.w3.org/2000/01/rdf-schema#label>  "glycoprotein NB" . }
+Query 2
+INSERT DATA { <interpro:IPR007288>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/glycoprotein_NB> . }
+Query 3
+INSERT DATA { <interpro:IPR007288>  <http://entities.org/name/ORGANISM/Influenzavirus_B>    "Influenzavirus B" . }
+Query 3
+INSERT DATA { <interpro:IPR007288>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/glycoprotein_NB>    "glycoprotein NB" . }
+Query 1
+
+            DELETE { <interpro:IPR030480>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030480" .  }
+            INSERT {    <interpro:IPR030480>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030480" .   }
+            WHERE   { 
+                <interpro:IPR030480>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030480" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR037528>  <http://www.w3.org/2000/01/rdf-schema#label>  "Acetylglutamate kinase ArgB" . }
+Query 1
+
+            DELETE { <interpro:IPR037528>  <http://www.w3.org/2000/01/rdf-schema#label>    "Acetylglutamate kinase ArgB" .  }
+            INSERT {    <interpro:IPR037528>  <http://www.w3.org/2000/01/rdf-schema#label>    "Acetylglutamate kinase ArgB" .   }
+            WHERE   { 
+                <interpro:IPR037528>  <http://www.w3.org/2000/01/rdf-schema#label>    "Acetylglutamate kinase ArgB" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Acetylglutamate_kinase_ArgB>  <http://www.w3.org/2000/01/rdf-schema#label>  "Acetylglutamate kinase ArgB" . }
+Query 2
+INSERT DATA { <interpro:IPR037528>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Acetylglutamate_kinase_ArgB> . }
+Query 3
+INSERT DATA { <interpro:IPR037528>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Acetylglutamate_kinase_ArgB>    "Acetylglutamate kinase ArgB" . }
+Query 1
+
+            DELETE { <interpro:IPR028479>  <http://www.w3.org/2000/01/rdf-schema#label>    "Eyes absent homologue 3" .  }
+            INSERT {    <interpro:IPR028479>  <http://www.w3.org/2000/01/rdf-schema#label>    "Eyes absent homologue 3" .   }
+            WHERE   { 
+                <interpro:IPR028479>  <http://www.w3.org/2000/01/rdf-schema#label>    "Eyes absent homologue 3" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR004164>  <http://www.w3.org/2000/01/rdf-schema#label>  "Coenzyme A transferase" . }
+Query 1
+
+            DELETE { <interpro:IPR004164>  <http://www.w3.org/2000/01/rdf-schema#label>    "Coenzyme A transferase active site" .  }
+            INSERT {    <interpro:IPR004164>  <http://www.w3.org/2000/01/rdf-schema#label>    "Coenzyme A transferase active site" .   }
+            WHERE   { 
+                <interpro:IPR004164>  <http://www.w3.org/2000/01/rdf-schema#label>    "Coenzyme A transferase active site" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Coenzyme_A_transferase>  <http://www.w3.org/2000/01/rdf-schema#label>  "Coenzyme A transferase" . }
+Query 2
+INSERT DATA { <interpro:IPR004164>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Coenzyme_A_transferase> . }
+Query 3
+INSERT DATA { <interpro:IPR004164>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Coenzyme_A_transferase>    "Coenzyme A transferase" . }
+Query 1
+
+            DELETE { <interpro:IPR023895>  <http://purl.org/dc/elements/1.1/identifier>    "IPR023895" .  }
+            INSERT {    <interpro:IPR023895>  <http://purl.org/dc/elements/1.1/identifier>    "IPR023895" .   }
+            WHERE   { 
+                <interpro:IPR023895>  <http://purl.org/dc/elements/1.1/identifier>    "IPR023895" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR000684>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/40148> . }
+Query 2
+INSERT DATA { <interpro:IPR000684>  <http://www.w3.org/2000/01/rdf-schema#label>  "RNA polymerase II" . }
+Query 1
+
+            DELETE { <interpro:IPR000684>  <http://www.w3.org/2000/01/rdf-schema#label>    "RNA polymerase II, heptapeptide repeat, eukaryotic" .  }
+            INSERT {    <interpro:IPR000684>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/40148 , heptapeptide repeat, eukaryotic" .   }
+            WHERE   { 
+                <interpro:IPR000684>  <http://www.w3.org/2000/01/rdf-schema#label>    "RNA polymerase II, heptapeptide repeat, eukaryotic" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0E0B8W5>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/40148> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0E0B8W5>  <http://www.w3.org/2000/01/rdf-schema#label>  "RNA polymerase II" . }
+Query 2
+INSERT DATA { <interpro:IPR000684>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A0E0B8W5> . }
+Query 3
+INSERT DATA { <interpro:IPR000684>  <http://purl.uniprot.org/uniprot/A0A0E0B8W5>    <http://identifiers.org/taxonomy/40148> . }
+Query 3
+INSERT DATA { <interpro:IPR000684>  <http://purl.uniprot.org/uniprot/A0A0E0B8W5>    "RNA polymerase II" . }
+Query 1
+
+            DELETE { <interpro:IPR021628>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF3234" .  }
+            INSERT {    <interpro:IPR021628>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF3234" .   }
+            WHERE   { 
+                <interpro:IPR021628>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF3234" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR032368>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032368" .  }
+            INSERT {    <interpro:IPR032368>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032368" .   }
+            WHERE   { 
+                <interpro:IPR032368>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032368" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR038076>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4533> . }
+Query 2
+INSERT DATA { <interpro:IPR038076>  <http://www.w3.org/2000/01/rdf-schema#label>  "MgtE" . }
+Query 1
+
+            DELETE { <interpro:IPR038076>  <http://www.w3.org/2000/01/rdf-schema#label>    "MgtE, N-terminal domain superfamily" .  }
+            INSERT {    <interpro:IPR038076>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/4533 , N-terminal domain superfamily" .   }
+            WHERE   { 
+                <interpro:IPR038076>  <http://www.w3.org/2000/01/rdf-schema#label>    "MgtE, N-terminal domain superfamily" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/J3MV38>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4533> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/J3MV38>  <http://www.w3.org/2000/01/rdf-schema#label>  "MgtE" . }
+Query 2
+INSERT DATA { <interpro:IPR038076>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/J3MV38> . }
+Query 3
+INSERT DATA { <interpro:IPR038076>  <http://purl.uniprot.org/uniprot/J3MV38>    <http://identifiers.org/taxonomy/4533> . }
+Query 3
+INSERT DATA { <interpro:IPR038076>  <http://purl.uniprot.org/uniprot/J3MV38>    "MgtE" . }
+Query 1
+
+            DELETE { <interpro:IPR038588>  <http://www.w3.org/2000/01/rdf-schema#label>    "XS domain superfamily" .  }
+            INSERT {    <interpro:IPR038588>  <http://www.w3.org/2000/01/rdf-schema#label>    "XS domain superfamily" .   }
+            WHERE   { 
+                <interpro:IPR038588>  <http://www.w3.org/2000/01/rdf-schema#label>    "XS domain superfamily" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR016040>  <http://www.w3.org/2000/01/rdf-schema#label>    "NAD(P)-binding domain" .  }
+            INSERT {    <interpro:IPR016040>  <http://www.w3.org/2000/01/rdf-schema#label>    "NAD(P)-binding domain" .   }
+            WHERE   { 
+                <interpro:IPR016040>  <http://www.w3.org/2000/01/rdf-schema#label>    "NAD(P)-binding domain" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR031467>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4572> . }
+Query 2
+INSERT DATA { <interpro:IPR031467>  <http://www.w3.org/2000/01/rdf-schema#label>  "ATPase" . }
+Query 1
+
+            DELETE { <interpro:IPR031467>  <http://www.w3.org/2000/01/rdf-schema#label>    "ATPase expression protein 1" .  }
+            INSERT {    <interpro:IPR031467>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/4572  expression protein 1" .   }
+            WHERE   { 
+                <interpro:IPR031467>  <http://www.w3.org/2000/01/rdf-schema#label>    "ATPase expression protein 1" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/M7YG20>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4572> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/M7YG20>  <http://www.w3.org/2000/01/rdf-schema#label>  "ATPase" . }
+Query 2
+INSERT DATA { <interpro:IPR031467>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/M7YG20> . }
+Query 3
+INSERT DATA { <interpro:IPR031467>  <http://purl.uniprot.org/uniprot/M7YG20>    <http://identifiers.org/taxonomy/4572> . }
+Query 3
+INSERT DATA { <interpro:IPR031467>  <http://purl.uniprot.org/uniprot/M7YG20>    "ATPase" . }
+Query 1
+
+            DELETE { <interpro:IPR008542>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF824" .  }
+            INSERT {    <interpro:IPR008542>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF824" .   }
+            WHERE   { 
+                <interpro:IPR008542>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF824" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR011974>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phenylacetic acid" . }
+Query 2
+INSERT DATA { <interpro:IPR011974>  <http://www.w3.org/2000/01/rdf-schema#label>  "PaaY" . }
+Query 1
+
+            DELETE { <interpro:IPR011974>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phenylacetic acid degradation protein PaaY" .  }
+            INSERT {    <interpro:IPR011974>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phenylacetic acid degradation protein PaaY" .   }
+            WHERE   { 
+                <interpro:IPR011974>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phenylacetic acid degradation protein PaaY" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/SIMPLE_CHEMICAL/Phenylacetic_acid>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phenylacetic acid" . }
+Query 2
+INSERT DATA { <interpro:IPR011974>  <owl:PSreeAlso>  <http://entities.org/name/SIMPLE_CHEMICAL/Phenylacetic_acid> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/PaaY>  <http://www.w3.org/2000/01/rdf-schema#label>  "PaaY" . }
+Query 2
+INSERT DATA { <interpro:IPR011974>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/PaaY> . }
+Query 3
+INSERT DATA { <interpro:IPR011974>  <http://entities.org/name/SIMPLE_CHEMICAL/Phenylacetic_acid>    "Phenylacetic acid" . }
+Query 3
+INSERT DATA { <interpro:IPR011974>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/PaaY>    "PaaY" . }
+Query 1
+
+            DELETE { <interpro:IPR036731>  <http://purl.org/dc/elements/1.1/identifier>    "IPR036731" .  }
+            INSERT {    <interpro:IPR036731>  <http://purl.org/dc/elements/1.1/identifier>    "IPR036731" .   }
+            WHERE   { 
+                <interpro:IPR036731>  <http://purl.org/dc/elements/1.1/identifier>    "IPR036731" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR018884>  <http://purl.org/dc/elements/1.1/identifier>    "IPR018884" .  }
+            INSERT {    <interpro:IPR018884>  <http://purl.org/dc/elements/1.1/identifier>    "IPR018884" .   }
+            WHERE   { 
+                <interpro:IPR018884>  <http://purl.org/dc/elements/1.1/identifier>    "IPR018884" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR024711>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <interpro:IPR024711>  <http://www.w3.org/2000/01/rdf-schema#label>  "Catalase" . }
+Query 1
+
+            DELETE { <interpro:IPR024711>  <http://www.w3.org/2000/01/rdf-schema#label>    "Catalase, mono-functional, haem-containing, clades 1 and 3" .  }
+            INSERT {    <interpro:IPR024711>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3702 , mono-functional, haem-containing, clades 1 and 3" .   }
+            WHERE   { 
+                <interpro:IPR024711>  <http://www.w3.org/2000/01/rdf-schema#label>    "Catalase, mono-functional, haem-containing, clades 1 and 3" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/F4JCB2>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/F4JCB2>  <http://www.w3.org/2000/01/rdf-schema#label>  "Catalase" . }
+Query 2
+INSERT DATA { <interpro:IPR024711>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/F4JCB2> . }
+Query 3
+INSERT DATA { <interpro:IPR024711>  <http://purl.uniprot.org/uniprot/F4JCB2>    <http://identifiers.org/taxonomy/3702> . }
+Query 3
+INSERT DATA { <interpro:IPR024711>  <http://purl.uniprot.org/uniprot/F4JCB2>    "Catalase" . }
+Query 1
+
+            DELETE { <interpro:IPR030125>  <http://www.w3.org/2000/01/rdf-schema#label>    "SPIN90/Ldb17" .  }
+            INSERT {    <interpro:IPR030125>  <http://www.w3.org/2000/01/rdf-schema#label>    "SPIN90/Ldb17" .   }
+            WHERE   { 
+                <interpro:IPR030125>  <http://www.w3.org/2000/01/rdf-schema#label>    "SPIN90/Ldb17" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR000035>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000035" .  }
+            INSERT {    <interpro:IPR000035>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000035" .   }
+            WHERE   { 
+                <interpro:IPR000035>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000035" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR030368>  <http://www.w3.org/2000/01/rdf-schema#label>    "ATP-binding cassette subfamily A member 6" .  }
+            INSERT {    <interpro:IPR030368>  <http://www.w3.org/2000/01/rdf-schema#label>    "ATP-binding cassette subfamily A member 6" .   }
+            WHERE   { 
+                <interpro:IPR030368>  <http://www.w3.org/2000/01/rdf-schema#label>    "ATP-binding cassette subfamily A member 6" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR039249>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <interpro:IPR039249>  <http://www.w3.org/2000/01/rdf-schema#label>  "G patch domain-containing protein 11" . }
+Query 1
+
+            DELETE { <interpro:IPR039249>  <http://www.w3.org/2000/01/rdf-schema#label>    "G patch domain-containing protein 11" .  }
+            INSERT {    <interpro:IPR039249>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/4577 " .   }
+            WHERE   { 
+                <interpro:IPR039249>  <http://www.w3.org/2000/01/rdf-schema#label>    "G patch domain-containing protein 11" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317Y4I1>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317Y4I1>  <http://www.w3.org/2000/01/rdf-schema#label>  "G patch domain-containing protein 11" . }
+Query 2
+INSERT DATA { <interpro:IPR039249>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A317Y4I1> . }
+Query 3
+INSERT DATA { <interpro:IPR039249>  <http://purl.uniprot.org/uniprot/A0A317Y4I1>    <http://identifiers.org/taxonomy/4577> . }
+Query 3
+INSERT DATA { <interpro:IPR039249>  <http://purl.uniprot.org/uniprot/A0A317Y4I1>    "G patch domain-containing protein 11" . }
+Query 2
+INSERT DATA { <interpro:IPR007322>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4537> . }
+Query 2
+INSERT DATA { <interpro:IPR007322>  <http://www.w3.org/2000/01/rdf-schema#label>  "RNA-dependent RNA polymerase" . }
+Query 2
+INSERT DATA { <interpro:IPR007322>  <http://www.w3.org/2000/01/rdf-schema#label>  "bunyaviral" . }
+Query 1
+
+            DELETE { <interpro:IPR007322>  <http://www.w3.org/2000/01/rdf-schema#label>    "RNA-dependent RNA polymerase, bunyaviral" .  }
+            INSERT {    <interpro:IPR007322>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/4537 , bunyaviral" .   }
+            WHERE   { 
+                <interpro:IPR007322>  <http://www.w3.org/2000/01/rdf-schema#label>    "RNA-dependent RNA polymerase, bunyaviral" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0K0LN81>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4537> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0K0LN81>  <http://www.w3.org/2000/01/rdf-schema#label>  "RNA-dependent RNA polymerase" . }
+Query 2
+INSERT DATA { <interpro:IPR007322>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A0K0LN81> . }
+Query 2
+INSERT DATA { <http://entities.org/name/CELLULAR_COMPONENT/bunyaviral>  <http://www.w3.org/2000/01/rdf-schema#label>  "bunyaviral" . }
+Query 2
+INSERT DATA { <interpro:IPR007322>  <owl:PSreeAlso>  <http://entities.org/name/CELLULAR_COMPONENT/bunyaviral> . }
+Query 3
+INSERT DATA { <interpro:IPR007322>  <http://purl.uniprot.org/uniprot/A0A0K0LN81>    <http://identifiers.org/taxonomy/4537> . }
+Query 3
+INSERT DATA { <interpro:IPR007322>  <http://purl.uniprot.org/uniprot/A0A0K0LN81>    "RNA-dependent RNA polymerase" . }
+Query 3
+INSERT DATA { <interpro:IPR007322>  <http://entities.org/name/CELLULAR_COMPONENT/bunyaviral>    "bunyaviral" . }
+Query 2
+INSERT DATA { <interpro:IPR002872>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <interpro:IPR002872>  <http://www.w3.org/2000/01/rdf-schema#label>  "Proline dehydrogenase" . }
+Query 1
+
+            DELETE { <interpro:IPR002872>  <http://www.w3.org/2000/01/rdf-schema#label>    "Proline dehydrogenase domain" .  }
+            INSERT {    <interpro:IPR002872>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/4577  domain" .   }
+            WHERE   { 
+                <interpro:IPR002872>  <http://www.w3.org/2000/01/rdf-schema#label>    "Proline dehydrogenase domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317YJY0>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317YJY0>  <http://www.w3.org/2000/01/rdf-schema#label>  "Proline dehydrogenase" . }
+Query 2
+INSERT DATA { <interpro:IPR002872>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A317YJY0> . }
+Query 3
+INSERT DATA { <interpro:IPR002872>  <http://purl.uniprot.org/uniprot/A0A317YJY0>    <http://identifiers.org/taxonomy/4577> . }
+Query 3
+INSERT DATA { <interpro:IPR002872>  <http://purl.uniprot.org/uniprot/A0A317YJY0>    "Proline dehydrogenase" . }
+Query 2
+INSERT DATA { <interpro:IPR037486>  <http://www.w3.org/2000/01/rdf-schema#label>  "G-protein-coupled receptor" . }
+Query 2
+INSERT DATA { <interpro:IPR037486>  <http://www.w3.org/2000/01/rdf-schema#label>  "GPR139" . }
+Query 1
+
+            DELETE { <interpro:IPR037486>  <http://www.w3.org/2000/01/rdf-schema#label>    "G-protein-coupled receptor GPR139" .  }
+            INSERT {    <interpro:IPR037486>  <http://www.w3.org/2000/01/rdf-schema#label>    "G-protein-coupled receptor GPR139" .   }
+            WHERE   { 
+                <interpro:IPR037486>  <http://www.w3.org/2000/01/rdf-schema#label>    "G-protein-coupled receptor GPR139" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/G-protein-coupled_receptor>  <http://www.w3.org/2000/01/rdf-schema#label>  "G-protein-coupled receptor" . }
+Query 2
+INSERT DATA { <interpro:IPR037486>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/G-protein-coupled_receptor> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/GPR139>  <http://www.w3.org/2000/01/rdf-schema#label>  "GPR139" . }
+Query 2
+INSERT DATA { <interpro:IPR037486>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/GPR139> . }
+Query 3
+INSERT DATA { <interpro:IPR037486>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/G-protein-coupled_receptor>    "G-protein-coupled receptor" . }
+Query 3
+INSERT DATA { <interpro:IPR037486>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/GPR139>    "GPR139" . }
+Query 1
+
+            DELETE { <interpro:IPR034906>  <http://www.w3.org/2000/01/rdf-schema#label>    "Calcipressin-1, RNA recognition motif" .  }
+            INSERT {    <interpro:IPR034906>  <http://www.w3.org/2000/01/rdf-schema#label>    "Calcipressin-1, RNA recognition motif" .   }
+            WHERE   { 
+                <interpro:IPR034906>  <http://www.w3.org/2000/01/rdf-schema#label>    "Calcipressin-1, RNA recognition motif" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR017789>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <interpro:IPR017789>  <http://www.w3.org/2000/01/rdf-schema#label>  "Frataxin" . }
+Query 1
+
+            DELETE { <interpro:IPR017789>  <http://www.w3.org/2000/01/rdf-schema#label>    "Frataxin" .  }
+            INSERT {    <interpro:IPR017789>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3702 " .   }
+            WHERE   { 
+                <interpro:IPR017789>  <http://www.w3.org/2000/01/rdf-schema#label>    "Frataxin" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q9ZR07>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q9ZR07>  <http://www.w3.org/2000/01/rdf-schema#label>  "Frataxin" . }
+Query 2
+INSERT DATA { <interpro:IPR017789>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/Q9ZR07> . }
+Query 3
+INSERT DATA { <interpro:IPR017789>  <http://purl.uniprot.org/uniprot/Q9ZR07>    <http://identifiers.org/taxonomy/3702> . }
+Query 3
+INSERT DATA { <interpro:IPR017789>  <http://purl.uniprot.org/uniprot/Q9ZR07>    "Frataxin" . }
+Query 1
+
+            DELETE { <interpro:IPR025016>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF3955" .  }
+            INSERT {    <interpro:IPR025016>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF3955" .   }
+            WHERE   { 
+                <interpro:IPR025016>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF3955" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR038803>  <http://www.w3.org/2000/01/rdf-schema#label>  "Small integral membrane protein 33" . }
+Query 1
+
+            DELETE { <interpro:IPR038803>  <http://www.w3.org/2000/01/rdf-schema#label>    "Small integral membrane protein 33" .  }
+            INSERT {    <interpro:IPR038803>  <http://www.w3.org/2000/01/rdf-schema#label>    "Small integral membrane protein 33" .   }
+            WHERE   { 
+                <interpro:IPR038803>  <http://www.w3.org/2000/01/rdf-schema#label>    "Small integral membrane protein 33" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Small_integral_membrane_protein_33>  <http://www.w3.org/2000/01/rdf-schema#label>  "Small integral membrane protein 33" . }
+Query 2
+INSERT DATA { <interpro:IPR038803>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Small_integral_membrane_protein_33> . }
+Query 3
+INSERT DATA { <interpro:IPR038803>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Small_integral_membrane_protein_33>    "Small integral membrane protein 33" . }
+Query 1
+
+            DELETE { <interpro:IPR041499>  <http://purl.org/dc/elements/1.1/identifier>    "IPR041499" .  }
+            INSERT {    <interpro:IPR041499>  <http://purl.org/dc/elements/1.1/identifier>    "IPR041499" .   }
+            WHERE   { 
+                <interpro:IPR041499>  <http://purl.org/dc/elements/1.1/identifier>    "IPR041499" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR033181>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033181" .  }
+            INSERT {    <interpro:IPR033181>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033181" .   }
+            WHERE   { 
+                <interpro:IPR033181>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033181" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR002572>  <http://www.w3.org/2000/01/rdf-schema#label>  "IPR002572" . }
+Query 1
+
+            DELETE { <interpro:IPR002572>  <http://purl.org/dc/elements/1.1/identifier>    "IPR002572" .  }
+            INSERT {    <interpro:IPR002572>  <http://purl.org/dc/elements/1.1/identifier>    "IPR002572" .   }
+            WHERE   { 
+                <interpro:IPR002572>  <http://purl.org/dc/elements/1.1/identifier>    "IPR002572" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/IPR002572>  <http://www.w3.org/2000/01/rdf-schema#label>  "IPR002572" . }
+Query 2
+INSERT DATA { <interpro:IPR002572>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/IPR002572> . }
+Query 3
+INSERT DATA { <interpro:IPR002572>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/IPR002572>    "IPR002572" . }
+Query 2
+INSERT DATA { <interpro:IPR028168>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR028168>  <http://www.w3.org/2000/01/rdf-schema#label>  "KASH5-like coiled-coil" . }
+Query 1
+
+            DELETE { <interpro:IPR028168>  <http://www.w3.org/2000/01/rdf-schema#label>    "KASH5-like coiled-coil domain" .  }
+            INSERT {    <interpro:IPR028168>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT  domain" .   }
+            WHERE   { 
+                <interpro:IPR028168>  <http://www.w3.org/2000/01/rdf-schema#label>    "KASH5-like coiled-coil domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/KASH5-like_coiled-coil>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/KASH5-like_coiled-coil>  <http://www.w3.org/2000/01/rdf-schema#label>  "KASH5-like coiled-coil" . }
+Query 2
+INSERT DATA { <interpro:IPR028168>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/KASH5-like_coiled-coil> . }
+Query 3
+INSERT DATA { <interpro:IPR028168>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/KASH5-like_coiled-coil>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR028168>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/KASH5-like_coiled-coil>    "KASH5-like coiled-coil" . }
+Query 1
+
+            DELETE { <interpro:IPR016373>  <http://www.w3.org/2000/01/rdf-schema#label>    "Opacity" .  }
+            INSERT {    <interpro:IPR016373>  <http://www.w3.org/2000/01/rdf-schema#label>    "Opacity" .   }
+            WHERE   { 
+                <interpro:IPR016373>  <http://www.w3.org/2000/01/rdf-schema#label>    "Opacity" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR019554>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019554" .  }
+            INSERT {    <interpro:IPR019554>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019554" .   }
+            WHERE   { 
+                <interpro:IPR019554>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019554" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR000714>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <interpro:IPR000714>  <http://www.w3.org/2000/01/rdf-schema#label>  "Equine herpesvirus" . }
+Query 1
+
+            DELETE { <interpro:IPR000714>  <http://www.w3.org/2000/01/rdf-schema#label>    "Equine herpesvirus protein of unknown function" .  }
+            INSERT {    <interpro:IPR000714>  <http://www.w3.org/2000/01/rdf-schema#label>    "ORGANISM  protein of unknown function" .   }
+            WHERE   { 
+                <interpro:IPR000714>  <http://www.w3.org/2000/01/rdf-schema#label>    "Equine herpesvirus protein of unknown function" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/Equine_herpesvirus>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/Equine_herpesvirus>  <http://www.w3.org/2000/01/rdf-schema#label>  "Equine herpesvirus" . }
+Query 2
+INSERT DATA { <interpro:IPR000714>  <owl:PSreeAlso>  <http://entities.org/name/ORGANISM/Equine_herpesvirus> . }
+Query 3
+INSERT DATA { <interpro:IPR000714>  <http://entities.org/name/ORGANISM/Equine_herpesvirus>    "ORGANISM" . }
+Query 3
+INSERT DATA { <interpro:IPR000714>  <http://entities.org/name/ORGANISM/Equine_herpesvirus>    "Equine herpesvirus" . }
+Query 1
+
+            DELETE { <interpro:IPR028279>  <http://purl.org/dc/elements/1.1/identifier>    "IPR028279" .  }
+            INSERT {    <interpro:IPR028279>  <http://purl.org/dc/elements/1.1/identifier>    "IPR028279" .   }
+            WHERE   { 
+                <interpro:IPR028279>  <http://purl.org/dc/elements/1.1/identifier>    "IPR028279" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR042799>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042799" .  }
+            INSERT {    <interpro:IPR042799>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042799" .   }
+            WHERE   { 
+                <interpro:IPR042799>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042799" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR036486>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR036486>  <http://www.w3.org/2000/01/rdf-schema#label>  "Anti-Sigma Factor A" . }
+Query 1
+
+            DELETE { <interpro:IPR036486>  <http://www.w3.org/2000/01/rdf-schema#label>    "Anti-Sigma Factor A superfamily" .  }
+            INSERT {    <interpro:IPR036486>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT  superfamily" .   }
+            WHERE   { 
+                <interpro:IPR036486>  <http://www.w3.org/2000/01/rdf-schema#label>    "Anti-Sigma Factor A superfamily" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Anti-Sigma_Factor_A>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Anti-Sigma_Factor_A>  <http://www.w3.org/2000/01/rdf-schema#label>  "Anti-Sigma Factor A" . }
+Query 2
+INSERT DATA { <interpro:IPR036486>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Anti-Sigma_Factor_A> . }
+Query 3
+INSERT DATA { <interpro:IPR036486>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Anti-Sigma_Factor_A>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR036486>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Anti-Sigma_Factor_A>    "Anti-Sigma Factor A" . }
+Query 1
+
+            DELETE { <interpro:IPR044467>  <http://purl.org/dc/elements/1.1/identifier>    "IPR044467" .  }
+            INSERT {    <interpro:IPR044467>  <http://purl.org/dc/elements/1.1/identifier>    "IPR044467" .   }
+            WHERE   { 
+                <interpro:IPR044467>  <http://purl.org/dc/elements/1.1/identifier>    "IPR044467" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR007878>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <interpro:IPR007878>  <http://www.w3.org/2000/01/rdf-schema#label>  "Coronavirus NS2A" . }
+Query 1
+
+            DELETE { <interpro:IPR007878>  <http://www.w3.org/2000/01/rdf-schema#label>    "Coronavirus NS2A" .  }
+            INSERT {    <interpro:IPR007878>  <http://www.w3.org/2000/01/rdf-schema#label>    "ORGANISM " .   }
+            WHERE   { 
+                <interpro:IPR007878>  <http://www.w3.org/2000/01/rdf-schema#label>    "Coronavirus NS2A" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/Coronavirus_NS2A>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/Coronavirus_NS2A>  <http://www.w3.org/2000/01/rdf-schema#label>  "Coronavirus NS2A" . }
+Query 2
+INSERT DATA { <interpro:IPR007878>  <owl:PSreeAlso>  <http://entities.org/name/ORGANISM/Coronavirus_NS2A> . }
+Query 3
+INSERT DATA { <interpro:IPR007878>  <http://entities.org/name/ORGANISM/Coronavirus_NS2A>    "ORGANISM" . }
+Query 3
+INSERT DATA { <interpro:IPR007878>  <http://entities.org/name/ORGANISM/Coronavirus_NS2A>    "Coronavirus NS2A" . }
+Query 2
+INSERT DATA { <interpro:IPR034445>  <http://www.w3.org/2000/01/rdf-schema#type>  "SIMPLE_CHEMICAL" . }
+Query 2
+INSERT DATA { <interpro:IPR034445>  <http://www.w3.org/2000/01/rdf-schema#label>  "IPR034445" . }
+Query 1
+
+            DELETE { <interpro:IPR034445>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034445" .  }
+            INSERT {    <interpro:IPR034445>  <http://purl.org/dc/elements/1.1/identifier>    "SIMPLE_CHEMICAL " .   }
+            WHERE   { 
+                <interpro:IPR034445>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034445" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/SIMPLE_CHEMICAL/IPR034445>  <http://www.w3.org/2000/01/rdf-schema#type>  "SIMPLE_CHEMICAL" . }
+Query 2
+INSERT DATA { <http://entities.org/name/SIMPLE_CHEMICAL/IPR034445>  <http://www.w3.org/2000/01/rdf-schema#label>  "IPR034445" . }
+Query 2
+INSERT DATA { <interpro:IPR034445>  <owl:PSreeAlso>  <http://entities.org/name/SIMPLE_CHEMICAL/IPR034445> . }
+Query 3
+INSERT DATA { <interpro:IPR034445>  <http://entities.org/name/SIMPLE_CHEMICAL/IPR034445>    "SIMPLE_CHEMICAL" . }
+Query 3
+INSERT DATA { <interpro:IPR034445>  <http://entities.org/name/SIMPLE_CHEMICAL/IPR034445>    "IPR034445" . }
+Query 1
+
+            DELETE { <interpro:IPR031544>  <http://purl.org/dc/elements/1.1/identifier>    "IPR031544" .  }
+            INSERT {    <interpro:IPR031544>  <http://purl.org/dc/elements/1.1/identifier>    "IPR031544" .   }
+            WHERE   { 
+                <interpro:IPR031544>  <http://purl.org/dc/elements/1.1/identifier>    "IPR031544" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR024192>  <http://www.w3.org/2000/01/rdf-schema#type>  "SIMPLE_CHEMICAL" . }
+Query 2
+INSERT DATA { <interpro:IPR024192>  <http://www.w3.org/2000/01/rdf-schema#label>  "Fosfomycin" . }
+Query 1
+
+            DELETE { <interpro:IPR024192>  <http://www.w3.org/2000/01/rdf-schema#label>    "Fosfomycin resistance kinase, FomA-type" .  }
+            INSERT {    <interpro:IPR024192>  <http://www.w3.org/2000/01/rdf-schema#label>    "SIMPLE_CHEMICAL  resistance kinase, FomA-type" .   }
+            WHERE   { 
+                <interpro:IPR024192>  <http://www.w3.org/2000/01/rdf-schema#label>    "Fosfomycin resistance kinase, FomA-type" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/SIMPLE_CHEMICAL/Fosfomycin>  <http://www.w3.org/2000/01/rdf-schema#type>  "SIMPLE_CHEMICAL" . }
+Query 2
+INSERT DATA { <http://entities.org/name/SIMPLE_CHEMICAL/Fosfomycin>  <http://www.w3.org/2000/01/rdf-schema#label>  "Fosfomycin" . }
+Query 2
+INSERT DATA { <interpro:IPR024192>  <owl:PSreeAlso>  <http://entities.org/name/SIMPLE_CHEMICAL/Fosfomycin> . }
+Query 3
+INSERT DATA { <interpro:IPR024192>  <http://entities.org/name/SIMPLE_CHEMICAL/Fosfomycin>    "SIMPLE_CHEMICAL" . }
+Query 3
+INSERT DATA { <interpro:IPR024192>  <http://entities.org/name/SIMPLE_CHEMICAL/Fosfomycin>    "Fosfomycin" . }
+Query 1
+
+            DELETE { <interpro:IPR035628>  <http://purl.org/dc/elements/1.1/identifier>    "IPR035628" .  }
+            INSERT {    <interpro:IPR035628>  <http://purl.org/dc/elements/1.1/identifier>    "IPR035628" .   }
+            WHERE   { 
+                <interpro:IPR035628>  <http://purl.org/dc/elements/1.1/identifier>    "IPR035628" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR030185>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030185" .  }
+            INSERT {    <interpro:IPR030185>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030185" .   }
+            WHERE   { 
+                <interpro:IPR030185>  <http://purl.org/dc/elements/1.1/identifier>    "IPR030185" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR022695>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022695" .  }
+            INSERT {    <interpro:IPR022695>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022695" .   }
+            WHERE   { 
+                <interpro:IPR022695>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022695" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR021258>  <http://purl.org/dc/elements/1.1/identifier>    "IPR021258" .  }
+            INSERT {    <interpro:IPR021258>  <http://purl.org/dc/elements/1.1/identifier>    "IPR021258" .   }
+            WHERE   { 
+                <interpro:IPR021258>  <http://purl.org/dc/elements/1.1/identifier>    "IPR021258" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR036610>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/49390> . }
+Query 2
+INSERT DATA { <interpro:IPR036610>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR036610>  <http://www.w3.org/2000/01/rdf-schema#label>  "PEBP-like" . }
+Query 1
+
+            DELETE { <interpro:IPR036610>  <http://www.w3.org/2000/01/rdf-schema#label>    "PEBP-like superfamily" .  }
+            INSERT {    <interpro:IPR036610>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/49390 GENE_OR_GENE_PRODUCT  superfamily" .   }
+            WHERE   { 
+                <interpro:IPR036610>  <http://www.w3.org/2000/01/rdf-schema#label>    "PEBP-like superfamily" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A3P8MYR4>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/49390> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A3P8MYR4>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A3P8MYR4>  <http://www.w3.org/2000/01/rdf-schema#label>  "PEBP-like" . }
+Query 2
+INSERT DATA { <interpro:IPR036610>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A3P8MYR4> . }
+Query 3
+INSERT DATA { <interpro:IPR036610>  <http://purl.uniprot.org/uniprot/A0A3P8MYR4>    <http://identifiers.org/taxonomy/49390> . }
+Query 3
+INSERT DATA { <interpro:IPR036610>  <http://purl.uniprot.org/uniprot/A0A3P8MYR4>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR036610>  <http://purl.uniprot.org/uniprot/A0A3P8MYR4>    "PEBP-like" . }
+Query 1
+
+            DELETE { <interpro:IPR000381>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000381" .  }
+            INSERT {    <interpro:IPR000381>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000381" .   }
+            WHERE   { 
+                <interpro:IPR000381>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000381" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR032403>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032403" .  }
+            INSERT {    <interpro:IPR032403>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032403" .   }
+            WHERE   { 
+                <interpro:IPR032403>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032403" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR010029>  <http://purl.org/dc/elements/1.1/identifier>    "IPR010029" .  }
+            INSERT {    <interpro:IPR010029>  <http://purl.org/dc/elements/1.1/identifier>    "IPR010029" .   }
+            WHERE   { 
+                <interpro:IPR010029>  <http://purl.org/dc/elements/1.1/identifier>    "IPR010029" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR031572>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF4705" .  }
+            INSERT {    <interpro:IPR031572>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF4705" .   }
+            WHERE   { 
+                <interpro:IPR031572>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF4705" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR042563>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042563" .  }
+            INSERT {    <interpro:IPR042563>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042563" .   }
+            WHERE   { 
+                <interpro:IPR042563>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042563" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR014742>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <interpro:IPR014742>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR014742>  <http://www.w3.org/2000/01/rdf-schema#label>  "Cbl" . }
+Query 2
+INSERT DATA { <interpro:IPR014742>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR014742>  <http://www.w3.org/2000/01/rdf-schema#label>  "SH2-like" . }
+Query 1
+
+            DELETE { <interpro:IPR014742>  <http://www.w3.org/2000/01/rdf-schema#label>    "Adaptor protein Cbl, SH2-like domain" .  }
+            INSERT {    <interpro:IPR014742>  <http://www.w3.org/2000/01/rdf-schema#label>    "Adaptor protein http://identifiers.org/taxonomy/3702 GENE_OR_GENE_PRODUCT , SH2-like domain" .   }
+            WHERE   { 
+                <interpro:IPR014742>  <http://www.w3.org/2000/01/rdf-schema#label>    "Adaptor protein Cbl, SH2-like domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q9FJ54>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q9FJ54>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q9FJ54>  <http://www.w3.org/2000/01/rdf-schema#label>  "Cbl" . }
+Query 2
+INSERT DATA { <interpro:IPR014742>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/Q9FJ54> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/SH2-like>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/SH2-like>  <http://www.w3.org/2000/01/rdf-schema#label>  "SH2-like" . }
+Query 2
+INSERT DATA { <interpro:IPR014742>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SH2-like> . }
+Query 3
+INSERT DATA { <interpro:IPR014742>  <http://purl.uniprot.org/uniprot/Q9FJ54>    <http://identifiers.org/taxonomy/3702> . }
+Query 3
+INSERT DATA { <interpro:IPR014742>  <http://purl.uniprot.org/uniprot/Q9FJ54>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR014742>  <http://purl.uniprot.org/uniprot/Q9FJ54>    "Cbl" . }
+Query 3
+INSERT DATA { <interpro:IPR014742>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SH2-like>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR014742>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SH2-like>    "SH2-like" . }
+Query 1
+
+            DELETE { <interpro:IPR032646>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032646" .  }
+            INSERT {    <interpro:IPR032646>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032646" .   }
+            WHERE   { 
+                <interpro:IPR032646>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032646" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR040516>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR040516>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phosphoethanolamine N-methyltransferase 2" . }
+Query 1
+
+            DELETE { <interpro:IPR040516>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phosphoethanolamine N-methyltransferase 2, N-terminal" .  }
+            INSERT {    <interpro:IPR040516>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT , N-terminal" .   }
+            WHERE   { 
+                <interpro:IPR040516>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phosphoethanolamine N-methyltransferase 2, N-terminal" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/M8C881>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/M8C881>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phosphoethanolamine N-methyltransferase 2" . }
+Query 2
+INSERT DATA { <interpro:IPR040516>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/M8C881> . }
+Query 3
+INSERT DATA { <interpro:IPR040516>  <http://purl.uniprot.org/uniprot/M8C881>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR040516>  <http://purl.uniprot.org/uniprot/M8C881>    "Phosphoethanolamine N-methyltransferase 2" . }
+Query 2
+INSERT DATA { <interpro:IPR041937>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR041937>  <http://www.w3.org/2000/01/rdf-schema#label>  "SPRE" . }
+Query 2
+INSERT DATA { <interpro:IPR041937>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR041937>  <http://www.w3.org/2000/01/rdf-schema#label>  "EVH1" . }
+Query 1
+
+            DELETE { <interpro:IPR041937>  <http://www.w3.org/2000/01/rdf-schema#label>    "SPRE, EVH1 domain" .  }
+            INSERT {    <interpro:IPR041937>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT , EVH1 domain" .   }
+            WHERE   { 
+                <interpro:IPR041937>  <http://www.w3.org/2000/01/rdf-schema#label>    "SPRE, EVH1 domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/SPRE>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/SPRE>  <http://www.w3.org/2000/01/rdf-schema#label>  "SPRE" . }
+Query 2
+INSERT DATA { <interpro:IPR041937>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SPRE> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/EVH1>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/EVH1>  <http://www.w3.org/2000/01/rdf-schema#label>  "EVH1" . }
+Query 2
+INSERT DATA { <interpro:IPR041937>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/EVH1> . }
+Query 3
+INSERT DATA { <interpro:IPR041937>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SPRE>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR041937>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SPRE>    "SPRE" . }
+Query 3
+INSERT DATA { <interpro:IPR041937>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/EVH1>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR041937>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/EVH1>    "EVH1" . }
+Query 2
+INSERT DATA { <interpro:IPR040951>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR040951>  <http://www.w3.org/2000/01/rdf-schema#label>  "Interleukin-2 receptor subunit beta" . }
+Query 1
+
+            DELETE { <interpro:IPR040951>  <http://www.w3.org/2000/01/rdf-schema#label>    "Interleukin-2 receptor subunit beta, N-terminal" .  }
+            INSERT {    <interpro:IPR040951>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT , N-terminal" .   }
+            WHERE   { 
+                <interpro:IPR040951>  <http://www.w3.org/2000/01/rdf-schema#label>    "Interleukin-2 receptor subunit beta, N-terminal" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Interleukin-2_receptor_subunit_beta>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Interleukin-2_receptor_subunit_beta>  <http://www.w3.org/2000/01/rdf-schema#label>  "Interleukin-2 receptor subunit beta" . }
+Query 2
+INSERT DATA { <interpro:IPR040951>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Interleukin-2_receptor_subunit_beta> . }
+Query 3
+INSERT DATA { <interpro:IPR040951>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Interleukin-2_receptor_subunit_beta>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR040951>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Interleukin-2_receptor_subunit_beta>    "Interleukin-2 receptor subunit beta" . }
+Query 1
+
+            DELETE { <interpro:IPR000522>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000522" .  }
+            INSERT {    <interpro:IPR000522>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000522" .   }
+            WHERE   { 
+                <interpro:IPR000522>  <http://purl.org/dc/elements/1.1/identifier>    "IPR000522" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR024097>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR024097>  <http://www.w3.org/2000/01/rdf-schema#label>  "Basic helix-loop-helix leucine zipper" . }
+Query 1
+
+            DELETE { <interpro:IPR024097>  <http://www.w3.org/2000/01/rdf-schema#label>    "Basic helix-loop-helix leucine zipper transcription factor" .  }
+            INSERT {    <interpro:IPR024097>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT  transcription factor" .   }
+            WHERE   { 
+                <interpro:IPR024097>  <http://www.w3.org/2000/01/rdf-schema#label>    "Basic helix-loop-helix leucine zipper transcription factor" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Basic_helix-loop-helix_leucine_zipper>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Basic_helix-loop-helix_leucine_zipper>  <http://www.w3.org/2000/01/rdf-schema#label>  "Basic helix-loop-helix leucine zipper" . }
+Query 2
+INSERT DATA { <interpro:IPR024097>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Basic_helix-loop-helix_leucine_zipper> . }
+Query 3
+INSERT DATA { <interpro:IPR024097>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Basic_helix-loop-helix_leucine_zipper>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR024097>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Basic_helix-loop-helix_leucine_zipper>    "Basic helix-loop-helix leucine zipper" . }
+Query 2
+INSERT DATA { <interpro:IPR028798>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM_SUBSTANCE" . }
+Query 2
+INSERT DATA { <interpro:IPR028798>  <http://www.w3.org/2000/01/rdf-schema#label>  "pore calcium channel protein 2" . }
+Query 1
+
+            DELETE { <interpro:IPR028798>  <http://www.w3.org/2000/01/rdf-schema#label>    "Two pore calcium channel protein 2" .  }
+            INSERT {    <interpro:IPR028798>  <http://www.w3.org/2000/01/rdf-schema#label>    "Two ORGANISM_SUBSTANCE " .   }
+            WHERE   { 
+                <interpro:IPR028798>  <http://www.w3.org/2000/01/rdf-schema#label>    "Two pore calcium channel protein 2" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM_SUBSTANCE/pore_calcium_channel_protein_2>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM_SUBSTANCE" . }
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM_SUBSTANCE/pore_calcium_channel_protein_2>  <http://www.w3.org/2000/01/rdf-schema#label>  "pore calcium channel protein 2" . }
+Query 2
+INSERT DATA { <interpro:IPR028798>  <owl:PSreeAlso>  <http://entities.org/name/ORGANISM_SUBSTANCE/pore_calcium_channel_protein_2> . }
+Query 3
+INSERT DATA { <interpro:IPR028798>  <http://entities.org/name/ORGANISM_SUBSTANCE/pore_calcium_channel_protein_2>    "ORGANISM_SUBSTANCE" . }
+Query 3
+INSERT DATA { <interpro:IPR028798>  <http://entities.org/name/ORGANISM_SUBSTANCE/pore_calcium_channel_protein_2>    "pore calcium channel protein 2" . }
+Query 1
+
+            DELETE { <interpro:IPR039434>  <http://www.w3.org/2000/01/rdf-schema#label>    "Rift valley fever virus non structural protein-like" .  }
+            INSERT {    <interpro:IPR039434>  <http://www.w3.org/2000/01/rdf-schema#label>    "Rift valley fever virus non structural protein-like" .   }
+            WHERE   { 
+                <interpro:IPR039434>  <http://www.w3.org/2000/01/rdf-schema#label>    "Rift valley fever virus non structural protein-like" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR014986>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <interpro:IPR014986>  <http://www.w3.org/2000/01/rdf-schema#label>  "Clostridium phage" . }
+Query 1
+
+            DELETE { <interpro:IPR014986>  <http://www.w3.org/2000/01/rdf-schema#label>    "Clostridium phage phiCD119, XkdN" .  }
+            INSERT {    <interpro:IPR014986>  <http://www.w3.org/2000/01/rdf-schema#label>    "ORGANISM  phiCD119, XkdN" .   }
+            WHERE   { 
+                <interpro:IPR014986>  <http://www.w3.org/2000/01/rdf-schema#label>    "Clostridium phage phiCD119, XkdN" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/Clostridium_phage>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/Clostridium_phage>  <http://www.w3.org/2000/01/rdf-schema#label>  "Clostridium phage" . }
+Query 2
+INSERT DATA { <interpro:IPR014986>  <owl:PSreeAlso>  <http://entities.org/name/ORGANISM/Clostridium_phage> . }
+Query 3
+INSERT DATA { <interpro:IPR014986>  <http://entities.org/name/ORGANISM/Clostridium_phage>    "ORGANISM" . }
+Query 3
+INSERT DATA { <interpro:IPR014986>  <http://entities.org/name/ORGANISM/Clostridium_phage>    "Clostridium phage" . }
+Query 1
+
+            DELETE { <interpro:IPR012341>  <http://purl.org/dc/elements/1.1/identifier>    "IPR012341" .  }
+            INSERT {    <interpro:IPR012341>  <http://purl.org/dc/elements/1.1/identifier>    "IPR012341" .   }
+            WHERE   { 
+                <interpro:IPR012341>  <http://purl.org/dc/elements/1.1/identifier>    "IPR012341" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR020410>  <http://purl.org/dc/elements/1.1/identifier>    "IPR020410" .  }
+            INSERT {    <interpro:IPR020410>  <http://purl.org/dc/elements/1.1/identifier>    "IPR020410" .   }
+            WHERE   { 
+                <interpro:IPR020410>  <http://purl.org/dc/elements/1.1/identifier>    "IPR020410" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR021754>  <http://purl.org/dc/elements/1.1/identifier>    "IPR021754" .  }
+            INSERT {    <interpro:IPR021754>  <http://purl.org/dc/elements/1.1/identifier>    "IPR021754" .   }
+            WHERE   { 
+                <interpro:IPR021754>  <http://purl.org/dc/elements/1.1/identifier>    "IPR021754" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR025513>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF4401" .  }
+            INSERT {    <interpro:IPR025513>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF4401" .   }
+            WHERE   { 
+                <interpro:IPR025513>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF4401" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR003586>  <http://www.w3.org/2000/01/rdf-schema#label>    "Hint domain C-terminal" .  }
+            INSERT {    <interpro:IPR003586>  <http://www.w3.org/2000/01/rdf-schema#label>    "Hint domain C-terminal" .   }
+            WHERE   { 
+                <interpro:IPR003586>  <http://www.w3.org/2000/01/rdf-schema#label>    "Hint domain C-terminal" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR000977>  <http://www.w3.org/2000/01/rdf-schema#type>  "CELLULAR_COMPONENT" . }
+Query 2
+INSERT DATA { <interpro:IPR000977>  <http://www.w3.org/2000/01/rdf-schema#label>  "DNA" . }
+Query 1
+
+            DELETE { <interpro:IPR000977>  <http://www.w3.org/2000/01/rdf-schema#label>    "DNA ligase, ATP-dependent" .  }
+            INSERT {    <interpro:IPR000977>  <http://www.w3.org/2000/01/rdf-schema#label>    "CELLULAR_COMPONENT  ligase, ATP-dependent" .   }
+            WHERE   { 
+                <interpro:IPR000977>  <http://www.w3.org/2000/01/rdf-schema#label>    "DNA ligase, ATP-dependent" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/CELLULAR_COMPONENT/DNA>  <http://www.w3.org/2000/01/rdf-schema#type>  "CELLULAR_COMPONENT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/CELLULAR_COMPONENT/DNA>  <http://www.w3.org/2000/01/rdf-schema#label>  "DNA" . }
+Query 2
+INSERT DATA { <interpro:IPR000977>  <owl:PSreeAlso>  <http://entities.org/name/CELLULAR_COMPONENT/DNA> . }
+Query 3
+INSERT DATA { <interpro:IPR000977>  <http://entities.org/name/CELLULAR_COMPONENT/DNA>    "CELLULAR_COMPONENT" . }
+Query 3
+INSERT DATA { <interpro:IPR000977>  <http://entities.org/name/CELLULAR_COMPONENT/DNA>    "DNA" . }
+Query 1
+
+            DELETE { <interpro:IPR019707>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019707" .  }
+            INSERT {    <interpro:IPR019707>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019707" .   }
+            WHERE   { 
+                <interpro:IPR019707>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019707" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR008116>  <http://purl.org/dc/elements/1.1/identifier>    "IPR008116" .  }
+            INSERT {    <interpro:IPR008116>  <http://purl.org/dc/elements/1.1/identifier>    "IPR008116" .   }
+            WHERE   { 
+                <interpro:IPR008116>  <http://purl.org/dc/elements/1.1/identifier>    "IPR008116" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR030219>  <http://www.w3.org/2000/01/rdf-schema#label>    "Growth factor receptor-bound protein 2" .  }
+            INSERT {    <interpro:IPR030219>  <http://www.w3.org/2000/01/rdf-schema#label>    "Growth factor receptor-bound protein 2" .   }
+            WHERE   { 
+                <interpro:IPR030219>  <http://www.w3.org/2000/01/rdf-schema#label>    "Growth factor receptor-bound protein 2" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR004724>  <http://www.w3.org/2000/01/rdf-schema#type>  "CELL" . }
+Query 2
+INSERT DATA { <interpro:IPR004724>  <http://www.w3.org/2000/01/rdf-schema#label>  "Epithelial sodium" . }
+Query 1
+
+            DELETE { <interpro:IPR004724>  <http://www.w3.org/2000/01/rdf-schema#label>    "Epithelial sodium channel, chordates" .  }
+            INSERT {    <interpro:IPR004724>  <http://www.w3.org/2000/01/rdf-schema#label>    "CELL  channel, chordates" .   }
+            WHERE   { 
+                <interpro:IPR004724>  <http://www.w3.org/2000/01/rdf-schema#label>    "Epithelial sodium channel, chordates" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/CELL/Epithelial_sodium>  <http://www.w3.org/2000/01/rdf-schema#type>  "CELL" . }
+Query 2
+INSERT DATA { <http://entities.org/name/CELL/Epithelial_sodium>  <http://www.w3.org/2000/01/rdf-schema#label>  "Epithelial sodium" . }
+Query 2
+INSERT DATA { <interpro:IPR004724>  <owl:PSreeAlso>  <http://entities.org/name/CELL/Epithelial_sodium> . }
+Query 3
+INSERT DATA { <interpro:IPR004724>  <http://entities.org/name/CELL/Epithelial_sodium>    "CELL" . }
+Query 3
+INSERT DATA { <interpro:IPR004724>  <http://entities.org/name/CELL/Epithelial_sodium>    "Epithelial sodium" . }
+Query 2
+INSERT DATA { <interpro:IPR033629>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/40148> . }
+Query 2
+INSERT DATA { <interpro:IPR033629>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR033629>  <http://www.w3.org/2000/01/rdf-schema#label>  "Homeobox" . }
+Query 2
+INSERT DATA { <interpro:IPR033629>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR033629>  <http://www.w3.org/2000/01/rdf-schema#label>  "NKX-2.5" . }
+Query 1
+
+            DELETE { <interpro:IPR033629>  <http://www.w3.org/2000/01/rdf-schema#label>    "Homeobox protein NKX-2.5" .  }
+            INSERT {    <interpro:IPR033629>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/40148 GENE_OR_GENE_PRODUCT  protein NKX-2.5" .   }
+            WHERE   { 
+                <interpro:IPR033629>  <http://www.w3.org/2000/01/rdf-schema#label>    "Homeobox protein NKX-2.5" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0D9Z587>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/40148> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0D9Z587>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A0D9Z587>  <http://www.w3.org/2000/01/rdf-schema#label>  "Homeobox" . }
+Query 2
+INSERT DATA { <interpro:IPR033629>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A0D9Z587> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/NKX-2.5>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/NKX-2.5>  <http://www.w3.org/2000/01/rdf-schema#label>  "NKX-2.5" . }
+Query 2
+INSERT DATA { <interpro:IPR033629>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/NKX-2.5> . }
+Query 3
+INSERT DATA { <interpro:IPR033629>  <http://purl.uniprot.org/uniprot/A0A0D9Z587>    <http://identifiers.org/taxonomy/40148> . }
+Query 3
+INSERT DATA { <interpro:IPR033629>  <http://purl.uniprot.org/uniprot/A0A0D9Z587>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR033629>  <http://purl.uniprot.org/uniprot/A0A0D9Z587>    "Homeobox" . }
+Query 3
+INSERT DATA { <interpro:IPR033629>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/NKX-2.5>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR033629>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/NKX-2.5>    "NKX-2.5" . }
+Query 1
+
+            DELETE { <interpro:IPR034053>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034053" .  }
+            INSERT {    <interpro:IPR034053>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034053" .   }
+            WHERE   { 
+                <interpro:IPR034053>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034053" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR027906>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF4567" .  }
+            INSERT {    <interpro:IPR027906>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF4567" .   }
+            WHERE   { 
+                <interpro:IPR027906>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF4567" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR032320>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032320" .  }
+            INSERT {    <interpro:IPR032320>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032320" .   }
+            WHERE   { 
+                <interpro:IPR032320>  <http://purl.org/dc/elements/1.1/identifier>    "IPR032320" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR006659>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <interpro:IPR006659>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR006659>  <http://www.w3.org/2000/01/rdf-schema#label>  "Arsenate reductase" . }
+Query 1
+
+            DELETE { <interpro:IPR006659>  <http://www.w3.org/2000/01/rdf-schema#label>    "Arsenate reductase" .  }
+            INSERT {    <interpro:IPR006659>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/4577 GENE_OR_GENE_PRODUCT " .   }
+            WHERE   { 
+                <interpro:IPR006659>  <http://www.w3.org/2000/01/rdf-schema#label>    "Arsenate reductase" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317Y939>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317Y939>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317Y939>  <http://www.w3.org/2000/01/rdf-schema#label>  "Arsenate reductase" . }
+Query 2
+INSERT DATA { <interpro:IPR006659>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A317Y939> . }
+Query 3
+INSERT DATA { <interpro:IPR006659>  <http://purl.uniprot.org/uniprot/A0A317Y939>    <http://identifiers.org/taxonomy/4577> . }
+Query 3
+INSERT DATA { <interpro:IPR006659>  <http://purl.uniprot.org/uniprot/A0A317Y939>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR006659>  <http://purl.uniprot.org/uniprot/A0A317Y939>    "Arsenate reductase" . }
+Query 1
+
+            DELETE { <interpro:IPR022013>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022013" .  }
+            INSERT {    <interpro:IPR022013>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022013" .   }
+            WHERE   { 
+                <interpro:IPR022013>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022013" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR036580>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/39947> . }
+Query 2
+INSERT DATA { <interpro:IPR036580>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR036580>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phosphatase 2C" . }
+Query 1
+
+            DELETE { <interpro:IPR036580>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phosphatase 2C, C-terminal domain superfamily" .  }
+            INSERT {    <interpro:IPR036580>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/39947 GENE_OR_GENE_PRODUCT , C-terminal domain superfamily" .   }
+            WHERE   { 
+                <interpro:IPR036580>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phosphatase 2C, C-terminal domain superfamily" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q5ZBJ7>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/39947> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q5ZBJ7>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q5ZBJ7>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phosphatase 2C" . }
+Query 2
+INSERT DATA { <interpro:IPR036580>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/Q5ZBJ7> . }
+Query 3
+INSERT DATA { <interpro:IPR036580>  <http://purl.uniprot.org/uniprot/Q5ZBJ7>    <http://identifiers.org/taxonomy/39947> . }
+Query 3
+INSERT DATA { <interpro:IPR036580>  <http://purl.uniprot.org/uniprot/Q5ZBJ7>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR036580>  <http://purl.uniprot.org/uniprot/Q5ZBJ7>    "Phosphatase 2C" . }
+Query 1
+
+            DELETE { <interpro:IPR032255>  <http://www.w3.org/2000/01/rdf-schema#label>    "Helical bimodular sensor domain" .  }
+            INSERT {    <interpro:IPR032255>  <http://www.w3.org/2000/01/rdf-schema#label>    "Helical bimodular sensor domain" .   }
+            WHERE   { 
+                <interpro:IPR032255>  <http://www.w3.org/2000/01/rdf-schema#label>    "Helical bimodular sensor domain" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR001234>  <http://purl.org/dc/elements/1.1/identifier>    "IPR001234" .  }
+            INSERT {    <interpro:IPR001234>  <http://purl.org/dc/elements/1.1/identifier>    "IPR001234" .   }
+            WHERE   { 
+                <interpro:IPR001234>  <http://purl.org/dc/elements/1.1/identifier>    "IPR001234" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR014223>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR014223>  <http://www.w3.org/2000/01/rdf-schema#label>  "CydDC cysteine exporter" . }
+Query 2
+INSERT DATA { <interpro:IPR014223>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/1753> . }
+Query 2
+INSERT DATA { <interpro:IPR014223>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR014223>  <http://www.w3.org/2000/01/rdf-schema#label>  "CydC" . }
+Query 1
+
+            DELETE { <interpro:IPR014223>  <http://www.w3.org/2000/01/rdf-schema#label>    "ABC transporter, CydDC cysteine exporter (CydDC-E) family, permease/ATP-binding protein CydC" .  }
+            INSERT {    <interpro:IPR014223>  <http://www.w3.org/2000/01/rdf-schema#label>    "ABC transporter, GENE_OR_GENE_PRODUCT  (CydDC-E) family, permease/ATP-binding protein http://identifiers.org/taxonomy/1753  " .   }
+            WHERE   { 
+                <interpro:IPR014223>  <http://www.w3.org/2000/01/rdf-schema#label>    "ABC transporter, CydDC cysteine exporter (CydDC-E) family, permease/ATP-binding protein CydC" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/CydDC_cysteine_exporter>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/CydDC_cysteine_exporter>  <http://www.w3.org/2000/01/rdf-schema#label>  "CydDC cysteine exporter" . }
+Query 2
+INSERT DATA { <interpro:IPR014223>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/CydDC_cysteine_exporter> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A542ZSX8>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/1753> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A542ZSX8>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A542ZSX8>  <http://www.w3.org/2000/01/rdf-schema#label>  "CydC" . }
+Query 2
+INSERT DATA { <interpro:IPR014223>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A542ZSX8> . }
+Query 3
+INSERT DATA { <interpro:IPR014223>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/CydDC_cysteine_exporter>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR014223>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/CydDC_cysteine_exporter>    "CydDC cysteine exporter" . }
+Query 3
+INSERT DATA { <interpro:IPR014223>  <http://purl.uniprot.org/uniprot/A0A542ZSX8>    <http://identifiers.org/taxonomy/1753> . }
+Query 3
+INSERT DATA { <interpro:IPR014223>  <http://purl.uniprot.org/uniprot/A0A542ZSX8>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR014223>  <http://purl.uniprot.org/uniprot/A0A542ZSX8>    "CydC" . }
+Query 1
+
+            DELETE { <interpro:IPR009170>  <http://www.w3.org/2000/01/rdf-schema#label>    "PR domain zinc finger protein 2" .  }
+            INSERT {    <interpro:IPR009170>  <http://www.w3.org/2000/01/rdf-schema#label>    "PR domain zinc finger protein 2" .   }
+            WHERE   { 
+                <interpro:IPR009170>  <http://www.w3.org/2000/01/rdf-schema#label>    "PR domain zinc finger protein 2" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR025794>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3476> . }
+Query 2
+INSERT DATA { <interpro:IPR025794>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR025794>  <http://www.w3.org/2000/01/rdf-schema#label>  "Histone H3-K9" . }
+Query 1
+
+            DELETE { <interpro:IPR025794>  <http://www.w3.org/2000/01/rdf-schema#label>    "Histone H3-K9 methyltransferase, plant" .  }
+            INSERT {    <interpro:IPR025794>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3476 GENE_OR_GENE_PRODUCT  methyltransferase, plant" .   }
+            WHERE   { 
+                <interpro:IPR025794>  <http://www.w3.org/2000/01/rdf-schema#label>    "Histone H3-K9 methyltransferase, plant" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A2P5BHS3>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3476> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A2P5BHS3>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A2P5BHS3>  <http://www.w3.org/2000/01/rdf-schema#label>  "Histone H3-K9" . }
+Query 2
+INSERT DATA { <interpro:IPR025794>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A2P5BHS3> . }
+Query 3
+INSERT DATA { <interpro:IPR025794>  <http://purl.uniprot.org/uniprot/A0A2P5BHS3>    <http://identifiers.org/taxonomy/3476> . }
+Query 3
+INSERT DATA { <interpro:IPR025794>  <http://purl.uniprot.org/uniprot/A0A2P5BHS3>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR025794>  <http://purl.uniprot.org/uniprot/A0A2P5BHS3>    "Histone H3-K9" . }
+Query 1
+
+            DELETE { <interpro:IPR033022>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033022" .  }
+            INSERT {    <interpro:IPR033022>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033022" .   }
+            WHERE   { 
+                <interpro:IPR033022>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033022" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR040904>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF5557" .  }
+            INSERT {    <interpro:IPR040904>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF5557" .   }
+            WHERE   { 
+                <interpro:IPR040904>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF5557" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR024389>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024389" .  }
+            INSERT {    <interpro:IPR024389>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024389" .   }
+            WHERE   { 
+                <interpro:IPR024389>  <http://purl.org/dc/elements/1.1/identifier>    "IPR024389" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR000622>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR000622>  <http://www.w3.org/2000/01/rdf-schema#label>  "K/Cl co-transporter 1" . }
+Query 1
+
+            DELETE { <interpro:IPR000622>  <http://www.w3.org/2000/01/rdf-schema#label>    "K/Cl co-transporter 1" .  }
+            INSERT {    <interpro:IPR000622>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT " .   }
+            WHERE   { 
+                <interpro:IPR000622>  <http://www.w3.org/2000/01/rdf-schema#label>    "K/Cl co-transporter 1" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/K/Cl_co-transporter_1>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/K/Cl_co-transporter_1>  <http://www.w3.org/2000/01/rdf-schema#label>  "K/Cl co-transporter 1" . }
+Query 2
+INSERT DATA { <interpro:IPR000622>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/K/Cl_co-transporter_1> . }
+Query 3
+INSERT DATA { <interpro:IPR000622>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/K/Cl_co-transporter_1>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR000622>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/K/Cl_co-transporter_1>    "K/Cl co-transporter 1" . }
+Query 1
+
+            DELETE { <interpro:IPR018121>  <http://www.w3.org/2000/01/rdf-schema#label>    "Seven-in-absentia protein, TRAF-like domain" .  }
+            INSERT {    <interpro:IPR018121>  <http://www.w3.org/2000/01/rdf-schema#label>    "Seven-in-absentia protein, TRAF-like domain" .   }
+            WHERE   { 
+                <interpro:IPR018121>  <http://www.w3.org/2000/01/rdf-schema#label>    "Seven-in-absentia protein, TRAF-like domain" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR035871>  <http://purl.org/dc/elements/1.1/identifier>    "IPR035871" .  }
+            INSERT {    <interpro:IPR035871>  <http://purl.org/dc/elements/1.1/identifier>    "IPR035871" .   }
+            WHERE   { 
+                <interpro:IPR035871>  <http://purl.org/dc/elements/1.1/identifier>    "IPR035871" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR038837>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <interpro:IPR038837>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR038837>  <http://www.w3.org/2000/01/rdf-schema#label>  "tRNA ligase 1" . }
+Query 1
+
+            DELETE { <interpro:IPR038837>  <http://www.w3.org/2000/01/rdf-schema#label>    "tRNA ligase 1" .  }
+            INSERT {    <interpro:IPR038837>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3702 GENE_OR_GENE_PRODUCT " .   }
+            WHERE   { 
+                <interpro:IPR038837>  <http://www.w3.org/2000/01/rdf-schema#label>    "tRNA ligase 1" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q0WL81>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q0WL81>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q0WL81>  <http://www.w3.org/2000/01/rdf-schema#label>  "tRNA ligase 1" . }
+Query 2
+INSERT DATA { <interpro:IPR038837>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/Q0WL81> . }
+Query 3
+INSERT DATA { <interpro:IPR038837>  <http://purl.uniprot.org/uniprot/Q0WL81>    <http://identifiers.org/taxonomy/3702> . }
+Query 3
+INSERT DATA { <interpro:IPR038837>  <http://purl.uniprot.org/uniprot/Q0WL81>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR038837>  <http://purl.uniprot.org/uniprot/Q0WL81>    "tRNA ligase 1" . }
+Query 1
+
+            DELETE { <interpro:IPR019268>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019268" .  }
+            INSERT {    <interpro:IPR019268>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019268" .   }
+            WHERE   { 
+                <interpro:IPR019268>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019268" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR039121>  <http://www.w3.org/2000/01/rdf-schema#type>  "SIMPLE_CHEMICAL" . }
+Query 2
+INSERT DATA { <interpro:IPR039121>  <http://www.w3.org/2000/01/rdf-schema#label>  "Nucleoside diphosphate-linked moiety X motif 19" . }
+Query 1
+
+            DELETE { <interpro:IPR039121>  <http://www.w3.org/2000/01/rdf-schema#label>    "Nucleoside diphosphate-linked moiety X motif 19" .  }
+            INSERT {    <interpro:IPR039121>  <http://www.w3.org/2000/01/rdf-schema#label>    "SIMPLE_CHEMICAL " .   }
+            WHERE   { 
+                <interpro:IPR039121>  <http://www.w3.org/2000/01/rdf-schema#label>    "Nucleoside diphosphate-linked moiety X motif 19" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/SIMPLE_CHEMICAL/Nucleoside_diphosphate-linked_moiety_X_motif_19>  <http://www.w3.org/2000/01/rdf-schema#type>  "SIMPLE_CHEMICAL" . }
+Query 2
+INSERT DATA { <http://entities.org/name/SIMPLE_CHEMICAL/Nucleoside_diphosphate-linked_moiety_X_motif_19>  <http://www.w3.org/2000/01/rdf-schema#label>  "Nucleoside diphosphate-linked moiety X motif 19" . }
+Query 2
+INSERT DATA { <interpro:IPR039121>  <owl:PSreeAlso>  <http://entities.org/name/SIMPLE_CHEMICAL/Nucleoside_diphosphate-linked_moiety_X_motif_19> . }
+Query 3
+INSERT DATA { <interpro:IPR039121>  <http://entities.org/name/SIMPLE_CHEMICAL/Nucleoside_diphosphate-linked_moiety_X_motif_19>    "SIMPLE_CHEMICAL" . }
+Query 3
+INSERT DATA { <interpro:IPR039121>  <http://entities.org/name/SIMPLE_CHEMICAL/Nucleoside_diphosphate-linked_moiety_X_motif_19>    "Nucleoside diphosphate-linked moiety X motif 19" . }
+Query 1
+
+            DELETE { <interpro:IPR042087>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042087" .  }
+            INSERT {    <interpro:IPR042087>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042087" .   }
+            WHERE   { 
+                <interpro:IPR042087>  <http://purl.org/dc/elements/1.1/identifier>    "IPR042087" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR038916>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR038916>  <http://www.w3.org/2000/01/rdf-schema#label>  "FAM118" . }
+Query 1
+
+            DELETE { <interpro:IPR038916>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein FAM118" .  }
+            INSERT {    <interpro:IPR038916>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein GENE_OR_GENE_PRODUCT " .   }
+            WHERE   { 
+                <interpro:IPR038916>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein FAM118" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/FAM118>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/FAM118>  <http://www.w3.org/2000/01/rdf-schema#label>  "FAM118" . }
+Query 2
+INSERT DATA { <interpro:IPR038916>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/FAM118> . }
+Query 3
+INSERT DATA { <interpro:IPR038916>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/FAM118>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR038916>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/FAM118>    "FAM118" . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phosphoinositide phosphatase" . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <http://www.w3.org/2000/01/rdf-schema#label>  "SAC6" . }
+Query 1
+
+            DELETE { <interpro:IPR030069>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phosphoinositide phosphatase SAC6" .  }
+            INSERT {    <interpro:IPR030069>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/4577 GENE_OR_GENE_PRODUCT  http://identifiers.org/taxonomy/3702  " .   }
+            WHERE   { 
+                <interpro:IPR030069>  <http://www.w3.org/2000/01/rdf-schema#label>    "Phosphoinositide phosphatase SAC6" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317YK51>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/4577> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317YK51>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A317YK51>  <http://www.w3.org/2000/01/rdf-schema#label>  "Phosphoinositide phosphatase" . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A317YK51> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q7X911>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3702> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q7X911>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q7X911>  <http://www.w3.org/2000/01/rdf-schema#label>  "SAC6" . }
+Query 2
+INSERT DATA { <interpro:IPR030069>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/Q7X911> . }
+Query 3
+INSERT DATA { <interpro:IPR030069>  <http://purl.uniprot.org/uniprot/A0A317YK51>    <http://identifiers.org/taxonomy/4577> . }
+Query 3
+INSERT DATA { <interpro:IPR030069>  <http://purl.uniprot.org/uniprot/A0A317YK51>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR030069>  <http://purl.uniprot.org/uniprot/A0A317YK51>    "Phosphoinositide phosphatase" . }
+Query 3
+INSERT DATA { <interpro:IPR030069>  <http://purl.uniprot.org/uniprot/Q7X911>    <http://identifiers.org/taxonomy/3702> . }
+Query 3
+INSERT DATA { <interpro:IPR030069>  <http://purl.uniprot.org/uniprot/Q7X911>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR030069>  <http://purl.uniprot.org/uniprot/Q7X911>    "SAC6" . }
+Query 1
+
+            DELETE { <interpro:IPR041921>  <http://purl.org/dc/elements/1.1/identifier>    "IPR041921" .  }
+            INSERT {    <interpro:IPR041921>  <http://purl.org/dc/elements/1.1/identifier>    "IPR041921" .   }
+            WHERE   { 
+                <interpro:IPR041921>  <http://purl.org/dc/elements/1.1/identifier>    "IPR041921" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR023455>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR023455>  <http://www.w3.org/2000/01/rdf-schema#label>  "Dihydroorotate dehydrogenase electron" . }
+Query 1
+
+            DELETE { <interpro:IPR023455>  <http://www.w3.org/2000/01/rdf-schema#label>    "Dihydroorotate dehydrogenase electron transfer subunit" .  }
+            INSERT {    <interpro:IPR023455>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT  transfer subunit" .   }
+            WHERE   { 
+                <interpro:IPR023455>  <http://www.w3.org/2000/01/rdf-schema#label>    "Dihydroorotate dehydrogenase electron transfer subunit" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Dihydroorotate_dehydrogenase_electron>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Dihydroorotate_dehydrogenase_electron>  <http://www.w3.org/2000/01/rdf-schema#label>  "Dihydroorotate dehydrogenase electron" . }
+Query 2
+INSERT DATA { <interpro:IPR023455>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Dihydroorotate_dehydrogenase_electron> . }
+Query 3
+INSERT DATA { <interpro:IPR023455>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Dihydroorotate_dehydrogenase_electron>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR023455>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Dihydroorotate_dehydrogenase_electron>    "Dihydroorotate dehydrogenase electron" . }
+Query 1
+
+            DELETE { <interpro:IPR034411>  <http://www.w3.org/2000/01/rdf-schema#label>    "Heterogeneous nuclear ribonucleoprotein R, RNA recognition motif 2" .  }
+            INSERT {    <interpro:IPR034411>  <http://www.w3.org/2000/01/rdf-schema#label>    "Heterogeneous nuclear ribonucleoprotein R, RNA recognition motif 2" .   }
+            WHERE   { 
+                <interpro:IPR034411>  <http://www.w3.org/2000/01/rdf-schema#label>    "Heterogeneous nuclear ribonucleoprotein R, RNA recognition motif 2" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR041728>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR041728>  <http://www.w3.org/2000/01/rdf-schema#label>  "acyltransferase domain" . }
+Query 1
+
+            DELETE { <interpro:IPR041728>  <http://www.w3.org/2000/01/rdf-schema#label>    "GPAT/DHAPAT, acyltransferase domain" .  }
+            INSERT {    <interpro:IPR041728>  <http://www.w3.org/2000/01/rdf-schema#label>    "GPAT/DHAPAT, GENE_OR_GENE_PRODUCT " .   }
+            WHERE   { 
+                <interpro:IPR041728>  <http://www.w3.org/2000/01/rdf-schema#label>    "GPAT/DHAPAT, acyltransferase domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/acyltransferase_domain>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/acyltransferase_domain>  <http://www.w3.org/2000/01/rdf-schema#label>  "acyltransferase domain" . }
+Query 2
+INSERT DATA { <interpro:IPR041728>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/acyltransferase_domain> . }
+Query 3
+INSERT DATA { <interpro:IPR041728>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/acyltransferase_domain>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR041728>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/acyltransferase_domain>    "acyltransferase domain" . }
+Query 2
+INSERT DATA { <interpro:IPR004260>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR004260>  <http://www.w3.org/2000/01/rdf-schema#label>  "Pyrimidine dimer DNA glycosylase" . }
+Query 1
+
+            DELETE { <interpro:IPR004260>  <http://www.w3.org/2000/01/rdf-schema#label>    "Pyrimidine dimer DNA glycosylase" .  }
+            INSERT {    <interpro:IPR004260>  <http://www.w3.org/2000/01/rdf-schema#label>    "GENE_OR_GENE_PRODUCT " .   }
+            WHERE   { 
+                <interpro:IPR004260>  <http://www.w3.org/2000/01/rdf-schema#label>    "Pyrimidine dimer DNA glycosylase" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Pyrimidine_dimer_DNA_glycosylase>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/Pyrimidine_dimer_DNA_glycosylase>  <http://www.w3.org/2000/01/rdf-schema#label>  "Pyrimidine dimer DNA glycosylase" . }
+Query 2
+INSERT DATA { <interpro:IPR004260>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Pyrimidine_dimer_DNA_glycosylase> . }
+Query 3
+INSERT DATA { <interpro:IPR004260>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Pyrimidine_dimer_DNA_glycosylase>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR004260>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/Pyrimidine_dimer_DNA_glycosylase>    "Pyrimidine dimer DNA glycosylase" . }
+Query 1
+
+            DELETE { <interpro:IPR014015>  <http://purl.org/dc/elements/1.1/identifier>    "IPR014015" .  }
+            INSERT {    <interpro:IPR014015>  <http://purl.org/dc/elements/1.1/identifier>    "IPR014015" .   }
+            WHERE   { 
+                <interpro:IPR014015>  <http://purl.org/dc/elements/1.1/identifier>    "IPR014015" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR034516>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034516" .  }
+            INSERT {    <interpro:IPR034516>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034516" .   }
+            WHERE   { 
+                <interpro:IPR034516>  <http://purl.org/dc/elements/1.1/identifier>    "IPR034516" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR028561>  <http://www.w3.org/2000/01/rdf-schema#label>    "Unconventional myosin-XVIIIb" .  }
+            INSERT {    <interpro:IPR028561>  <http://www.w3.org/2000/01/rdf-schema#label>    "Unconventional myosin-XVIIIb" .   }
+            WHERE   { 
+                <interpro:IPR028561>  <http://www.w3.org/2000/01/rdf-schema#label>    "Unconventional myosin-XVIIIb" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR010140>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/1753> . }
+Query 2
+INSERT DATA { <interpro:IPR010140>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR010140>  <http://www.w3.org/2000/01/rdf-schema#label>  "Histidinol phosphate phosphatase" . }
+Query 2
+INSERT DATA { <interpro:IPR010140>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR010140>  <http://www.w3.org/2000/01/rdf-schema#label>  "HisJ" . }
+Query 1
+
+            DELETE { <interpro:IPR010140>  <http://www.w3.org/2000/01/rdf-schema#label>    "Histidinol phosphate phosphatase, HisJ" .  }
+            INSERT {    <interpro:IPR010140>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/1753 GENE_OR_GENE_PRODUCT , HisJ" .   }
+            WHERE   { 
+                <interpro:IPR010140>  <http://www.w3.org/2000/01/rdf-schema#label>    "Histidinol phosphate phosphatase, HisJ" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A542ZBA3>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/1753> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A542ZBA3>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A542ZBA3>  <http://www.w3.org/2000/01/rdf-schema#label>  "Histidinol phosphate phosphatase" . }
+Query 2
+INSERT DATA { <interpro:IPR010140>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A542ZBA3> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/HisJ>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/HisJ>  <http://www.w3.org/2000/01/rdf-schema#label>  "HisJ" . }
+Query 2
+INSERT DATA { <interpro:IPR010140>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/HisJ> . }
+Query 3
+INSERT DATA { <interpro:IPR010140>  <http://purl.uniprot.org/uniprot/A0A542ZBA3>    <http://identifiers.org/taxonomy/1753> . }
+Query 3
+INSERT DATA { <interpro:IPR010140>  <http://purl.uniprot.org/uniprot/A0A542ZBA3>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR010140>  <http://purl.uniprot.org/uniprot/A0A542ZBA3>    "Histidinol phosphate phosphatase" . }
+Query 3
+INSERT DATA { <interpro:IPR010140>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/HisJ>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR010140>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/HisJ>    "HisJ" . }
+Query 1
+
+            DELETE { <interpro:IPR014201>  <http://purl.org/dc/elements/1.1/identifier>    "IPR014201" .  }
+            INSERT {    <interpro:IPR014201>  <http://purl.org/dc/elements/1.1/identifier>    "IPR014201" .   }
+            WHERE   { 
+                <interpro:IPR014201>  <http://purl.org/dc/elements/1.1/identifier>    "IPR014201" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR033365>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033365" .  }
+            INSERT {    <interpro:IPR033365>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033365" .   }
+            WHERE   { 
+                <interpro:IPR033365>  <http://purl.org/dc/elements/1.1/identifier>    "IPR033365" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR039133>  <http://purl.org/dc/elements/1.1/identifier>    "IPR039133" .  }
+            INSERT {    <interpro:IPR039133>  <http://purl.org/dc/elements/1.1/identifier>    "IPR039133" .   }
+            WHERE   { 
+                <interpro:IPR039133>  <http://purl.org/dc/elements/1.1/identifier>    "IPR039133" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR011473>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011473" .  }
+            INSERT {    <interpro:IPR011473>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011473" .   }
+            WHERE   { 
+                <interpro:IPR011473>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011473" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR006943>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF641, plant" .  }
+            INSERT {    <interpro:IPR006943>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF641, plant" .   }
+            WHERE   { 
+                <interpro:IPR006943>  <http://www.w3.org/2000/01/rdf-schema#label>    "Domain of unknown function DUF641, plant" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR030422>  <http://www.w3.org/2000/01/rdf-schema#label>    "Membrane-spanning 4-domains subfamily A member 12" .  }
+            INSERT {    <interpro:IPR030422>  <http://www.w3.org/2000/01/rdf-schema#label>    "Membrane-spanning 4-domains subfamily A member 12" .   }
+            WHERE   { 
+                <interpro:IPR030422>  <http://www.w3.org/2000/01/rdf-schema#label>    "Membrane-spanning 4-domains subfamily A member 12" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR040028>  <http://purl.org/dc/elements/1.1/identifier>    "IPR040028" .  }
+            INSERT {    <interpro:IPR040028>  <http://purl.org/dc/elements/1.1/identifier>    "IPR040028" .   }
+            WHERE   { 
+                <interpro:IPR040028>  <http://purl.org/dc/elements/1.1/identifier>    "IPR040028" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR002438>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM_SUBSTANCE" . }
+Query 2
+INSERT DATA { <interpro:IPR002438>  <http://www.w3.org/2000/01/rdf-schema#label>  "Neutral amino acid" . }
+Query 2
+INSERT DATA { <interpro:IPR002438>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR002438>  <http://www.w3.org/2000/01/rdf-schema#label>  "SLC6" . }
+Query 1
+
+            DELETE { <interpro:IPR002438>  <http://www.w3.org/2000/01/rdf-schema#label>    "Neutral amino acid SLC6 transporter" .  }
+            INSERT {    <interpro:IPR002438>  <http://www.w3.org/2000/01/rdf-schema#label>    "ORGANISM_SUBSTANCE  GENE_OR_GENE_PRODUCT  transporter" .   }
+            WHERE   { 
+                <interpro:IPR002438>  <http://www.w3.org/2000/01/rdf-schema#label>    "Neutral amino acid SLC6 transporter" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM_SUBSTANCE/Neutral_amino_acid>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM_SUBSTANCE" . }
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM_SUBSTANCE/Neutral_amino_acid>  <http://www.w3.org/2000/01/rdf-schema#label>  "Neutral amino acid" . }
+Query 2
+INSERT DATA { <interpro:IPR002438>  <owl:PSreeAlso>  <http://entities.org/name/ORGANISM_SUBSTANCE/Neutral_amino_acid> . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/SLC6>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/SLC6>  <http://www.w3.org/2000/01/rdf-schema#label>  "SLC6" . }
+Query 2
+INSERT DATA { <interpro:IPR002438>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SLC6> . }
+Query 3
+INSERT DATA { <interpro:IPR002438>  <http://entities.org/name/ORGANISM_SUBSTANCE/Neutral_amino_acid>    "ORGANISM_SUBSTANCE" . }
+Query 3
+INSERT DATA { <interpro:IPR002438>  <http://entities.org/name/ORGANISM_SUBSTANCE/Neutral_amino_acid>    "Neutral amino acid" . }
+Query 3
+INSERT DATA { <interpro:IPR002438>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SLC6>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR002438>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/SLC6>    "SLC6" . }
+Query 1
+
+            DELETE { <interpro:IPR016656>  <http://purl.org/dc/elements/1.1/identifier>    "IPR016656" .  }
+            INSERT {    <interpro:IPR016656>  <http://purl.org/dc/elements/1.1/identifier>    "IPR016656" .   }
+            WHERE   { 
+                <interpro:IPR016656>  <http://purl.org/dc/elements/1.1/identifier>    "IPR016656" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR025421>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF4148" .  }
+            INSERT {    <interpro:IPR025421>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF4148" .   }
+            WHERE   { 
+                <interpro:IPR025421>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF4148" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR019669>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019669" .  }
+            INSERT {    <interpro:IPR019669>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019669" .   }
+            WHERE   { 
+                <interpro:IPR019669>  <http://purl.org/dc/elements/1.1/identifier>    "IPR019669" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR036842>  <http://www.w3.org/2000/01/rdf-schema#label>    "AF2331-like superfamily" .  }
+            INSERT {    <interpro:IPR036842>  <http://www.w3.org/2000/01/rdf-schema#label>    "AF2331-like superfamily" .   }
+            WHERE   { 
+                <interpro:IPR036842>  <http://www.w3.org/2000/01/rdf-schema#label>    "AF2331-like superfamily" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR010549>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR010549>  <http://www.w3.org/2000/01/rdf-schema#label>  "IAP-like p27" . }
+Query 1
+
+            DELETE { <interpro:IPR010549>  <http://www.w3.org/2000/01/rdf-schema#label>    "African swine fever virus, IAP-like p27, C-terminal" .  }
+            INSERT {    <interpro:IPR010549>  <http://www.w3.org/2000/01/rdf-schema#label>    "African swine fever virus, GENE_OR_GENE_PRODUCT , C-terminal" .   }
+            WHERE   { 
+                <interpro:IPR010549>  <http://www.w3.org/2000/01/rdf-schema#label>    "African swine fever virus, IAP-like p27, C-terminal" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/IAP-like_p27>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://entities.org/name/GENE_OR_GENE_PRODUCT/IAP-like_p27>  <http://www.w3.org/2000/01/rdf-schema#label>  "IAP-like p27" . }
+Query 2
+INSERT DATA { <interpro:IPR010549>  <owl:PSreeAlso>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/IAP-like_p27> . }
+Query 3
+INSERT DATA { <interpro:IPR010549>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/IAP-like_p27>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR010549>  <http://entities.org/name/GENE_OR_GENE_PRODUCT/IAP-like_p27>    "IAP-like p27" . }
+Query 1
+
+            DELETE { <interpro:IPR002849>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF131" .  }
+            INSERT {    <interpro:IPR002849>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF131" .   }
+            WHERE   { 
+                <interpro:IPR002849>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF131" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR007462>  <http://purl.org/dc/elements/1.1/identifier>    "IPR007462" .  }
+            INSERT {    <interpro:IPR007462>  <http://purl.org/dc/elements/1.1/identifier>    "IPR007462" .   }
+            WHERE   { 
+                <interpro:IPR007462>  <http://purl.org/dc/elements/1.1/identifier>    "IPR007462" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR018473>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3641> . }
+Query 2
+INSERT DATA { <interpro:IPR018473>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR018473>  <http://www.w3.org/2000/01/rdf-schema#label>  "Hermes" . }
+Query 1
+
+            DELETE { <interpro:IPR018473>  <http://www.w3.org/2000/01/rdf-schema#label>    "Hermes trasposase, DNA-binding domain" .  }
+            INSERT {    <interpro:IPR018473>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/3641 GENE_OR_GENE_PRODUCT  trasposase, DNA-binding domain" .   }
+            WHERE   { 
+                <interpro:IPR018473>  <http://www.w3.org/2000/01/rdf-schema#label>    "Hermes trasposase, DNA-binding domain" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A061F7N5>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/3641> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A061F7N5>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/A0A061F7N5>  <http://www.w3.org/2000/01/rdf-schema#label>  "Hermes" . }
+Query 2
+INSERT DATA { <interpro:IPR018473>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/A0A061F7N5> . }
+Query 3
+INSERT DATA { <interpro:IPR018473>  <http://purl.uniprot.org/uniprot/A0A061F7N5>    <http://identifiers.org/taxonomy/3641> . }
+Query 3
+INSERT DATA { <interpro:IPR018473>  <http://purl.uniprot.org/uniprot/A0A061F7N5>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR018473>  <http://purl.uniprot.org/uniprot/A0A061F7N5>    "Hermes" . }
+Query 1
+
+            DELETE { <interpro:IPR023100>  <http://www.w3.org/2000/01/rdf-schema#label>    "D-aminoacylase, insert domain superfamily" .  }
+            INSERT {    <interpro:IPR023100>  <http://www.w3.org/2000/01/rdf-schema#label>    "D-aminoacylase, insert domain superfamily" .   }
+            WHERE   { 
+                <interpro:IPR023100>  <http://www.w3.org/2000/01/rdf-schema#label>    "D-aminoacylase, insert domain superfamily" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR038609>  <http://purl.org/dc/elements/1.1/identifier>    "IPR038609" .  }
+            INSERT {    <interpro:IPR038609>  <http://purl.org/dc/elements/1.1/identifier>    "IPR038609" .   }
+            WHERE   { 
+                <interpro:IPR038609>  <http://purl.org/dc/elements/1.1/identifier>    "IPR038609" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR017215>  <http://purl.org/dc/elements/1.1/identifier>    "IPR017215" .  }
+            INSERT {    <interpro:IPR017215>  <http://purl.org/dc/elements/1.1/identifier>    "IPR017215" .   }
+            WHERE   { 
+                <interpro:IPR017215>  <http://purl.org/dc/elements/1.1/identifier>    "IPR017215" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR018802>  <http://purl.org/dc/elements/1.1/identifier>    "IPR018802" .  }
+            INSERT {    <interpro:IPR018802>  <http://purl.org/dc/elements/1.1/identifier>    "IPR018802" .   }
+            WHERE   { 
+                <interpro:IPR018802>  <http://purl.org/dc/elements/1.1/identifier>    "IPR018802" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR013620>  <http://purl.org/dc/elements/1.1/identifier>    "IPR013620" .  }
+            INSERT {    <interpro:IPR013620>  <http://purl.org/dc/elements/1.1/identifier>    "IPR013620" .   }
+            WHERE   { 
+                <interpro:IPR013620>  <http://purl.org/dc/elements/1.1/identifier>    "IPR013620" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR013793>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/39947> . }
+Query 2
+INSERT DATA { <interpro:IPR013793>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <interpro:IPR013793>  <http://www.w3.org/2000/01/rdf-schema#label>  "Porin" . }
+Query 1
+
+            DELETE { <interpro:IPR013793>  <http://www.w3.org/2000/01/rdf-schema#label>    "Porin, Gram-negative type, conserved site" .  }
+            INSERT {    <interpro:IPR013793>  <http://www.w3.org/2000/01/rdf-schema#label>    "http://identifiers.org/taxonomy/39947 GENE_OR_GENE_PRODUCT , Gram-negative type, conserved site" .   }
+            WHERE   { 
+                <interpro:IPR013793>  <http://www.w3.org/2000/01/rdf-schema#label>    "Porin, Gram-negative type, conserved site" .
+            }
+            
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q6ZL68>  <http://purl.obolibrary.org/obo/RO_0002162>  <http://identifiers.org/taxonomy/39947> . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q6ZL68>  <http://www.w3.org/2000/01/rdf-schema#type>  "GENE_OR_GENE_PRODUCT" . }
+Query 2
+INSERT DATA { <http://purl.uniprot.org/uniprot/Q6ZL68>  <http://www.w3.org/2000/01/rdf-schema#label>  "Porin" . }
+Query 2
+INSERT DATA { <interpro:IPR013793>  <owl:PSreeAlso>  <http://purl.uniprot.org/uniprot/Q6ZL68> . }
+Query 3
+INSERT DATA { <interpro:IPR013793>  <http://purl.uniprot.org/uniprot/Q6ZL68>    <http://identifiers.org/taxonomy/39947> . }
+Query 3
+INSERT DATA { <interpro:IPR013793>  <http://purl.uniprot.org/uniprot/Q6ZL68>    "GENE_OR_GENE_PRODUCT" . }
+Query 3
+INSERT DATA { <interpro:IPR013793>  <http://purl.uniprot.org/uniprot/Q6ZL68>    "Porin" . }
+Query 1
+
+            DELETE { <interpro:IPR011405>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011405" .  }
+            INSERT {    <interpro:IPR011405>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011405" .   }
+            WHERE   { 
+                <interpro:IPR011405>  <http://purl.org/dc/elements/1.1/identifier>    "IPR011405" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR008799>  <http://purl.org/dc/elements/1.1/identifier>    "IPR008799" .  }
+            INSERT {    <interpro:IPR008799>  <http://purl.org/dc/elements/1.1/identifier>    "IPR008799" .   }
+            WHERE   { 
+                <interpro:IPR008799>  <http://purl.org/dc/elements/1.1/identifier>    "IPR008799" .
+            }
+            
+Query 2
+INSERT DATA { <interpro:IPR005214>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <interpro:IPR005214>  <http://www.w3.org/2000/01/rdf-schema#label>  "IBV 3A" . }
+Query 1
+
+            DELETE { <interpro:IPR005214>  <http://www.w3.org/2000/01/rdf-schema#label>    "IBV 3A protein" .  }
+            INSERT {    <interpro:IPR005214>  <http://www.w3.org/2000/01/rdf-schema#label>    "ORGANISM  protein" .   }
+            WHERE   { 
+                <interpro:IPR005214>  <http://www.w3.org/2000/01/rdf-schema#label>    "IBV 3A protein" .
+            }
+            
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/IBV_3A>  <http://www.w3.org/2000/01/rdf-schema#type>  "ORGANISM" . }
+Query 2
+INSERT DATA { <http://entities.org/name/ORGANISM/IBV_3A>  <http://www.w3.org/2000/01/rdf-schema#label>  "IBV 3A" . }
+Query 2
+INSERT DATA { <interpro:IPR005214>  <owl:PSreeAlso>  <http://entities.org/name/ORGANISM/IBV_3A> . }
+Query 3
+INSERT DATA { <interpro:IPR005214>  <http://entities.org/name/ORGANISM/IBV_3A>    "ORGANISM" . }
+Query 3
+INSERT DATA { <interpro:IPR005214>  <http://entities.org/name/ORGANISM/IBV_3A>    "IBV 3A" . }
+Query 1
+
+            DELETE { <interpro:IPR022433>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022433" .  }
+            INSERT {    <interpro:IPR022433>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022433" .   }
+            WHERE   { 
+                <interpro:IPR022433>  <http://purl.org/dc/elements/1.1/identifier>    "IPR022433" .
+            }
+            
+Query 1
+
+            DELETE { <interpro:IPR007162>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF366" .  }
+            INSERT {    <interpro:IPR007162>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF366" .   }
+            WHERE   { 
+                <interpro:IPR007162>  <http://www.w3.org/2000/01/rdf-schema#label>    "Protein of unknown function DUF366" .
+            }
+            

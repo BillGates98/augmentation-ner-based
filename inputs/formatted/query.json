@@ -1,0 +1,842 @@
+[
+  {
+    "event": "http://www.wikidata.org/entity/Q115909047",
+    "eventLabel": "2023 Australia National Road Cycling Championships - Women ITT",
+    "date": "2023-01-10T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115846584",
+    "eventLabel": "Contre-la-montre masculin aux championnats d'Australie de cyclisme sur route 2023",
+    "date": "2023-01-10T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115836252",
+    "eventLabel": "Course en ligne masculine aux championnats d'Australie de cyclisme sur route 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q114919375",
+    "eventLabel": "2023 Supercopa do Brasil",
+    "date": "2023-01-18T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116170974",
+    "eventLabel": "2023 New Zealand Cycle Classic, stage 5",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116170940",
+    "eventLabel": "2023 New Zealand Cycle Classic, stage 4",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116170931",
+    "eventLabel": "2023 New Zealand Cycle Classic, stage 3",
+    "date": "2023-01-13T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116170898",
+    "eventLabel": "2023 New Zealand Cycle Classic, stage 2",
+    "date": "2023-01-12T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116170878",
+    "eventLabel": "2023 New Zealand Cycle Classic, stage 1",
+    "date": "2023-01-11T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116152751",
+    "eventLabel": "New Zealand Cycle Classic 2023",
+    "date": "2023-01-11T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116152533",
+    "eventLabel": "Sharjah Tour 2023",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116152348",
+    "eventLabel": "Vuelta del Porvenir de San Luis 2023",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116152259",
+    "eventLabel": "Vuelta al Táchira 2023",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116152195",
+    "eventLabel": "Giro del Sol San Juan 2023",
+    "date": "2023-01-06T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116152002",
+    "eventLabel": "Tropicale Amissa Bongo 2023",
+    "date": "2023-01-23T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116152586",
+    "eventLabel": "Saudi Tour 2023",
+    "date": "2023-01-30T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115788484",
+    "eventLabel": "Étoile de Bessèges 2023",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116214152",
+    "eventLabel": "2023 Gran Premio Valencia",
+    "date": "2023-01-22T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116610838",
+    "eventLabel": "2023 Trofeo Playa de Palma",
+    "date": "2023-01-29T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116609338",
+    "eventLabel": "2023 Trofeo Serra de Tramuntana",
+    "date": "2023-01-28T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116609087",
+    "eventLabel": "2023 Trofeo Andratx-Mirador D'es Colomer",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116446204",
+    "eventLabel": "2023 Ses Salines-Alcudia",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116378443",
+    "eventLabel": "2023 Trofeo Calvià",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116007706",
+    "eventLabel": "Grand Prix La Marseillaise 2023",
+    "date": "2023-01-29T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116024946",
+    "eventLabel": "Cadel Evans Great Ocean Road Race 2023",
+    "date": "2023-01-29T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115769573",
+    "eventLabel": "Tour Down Under 2023",
+    "date": "2023-01-17T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116380551",
+    "eventLabel": "2023 Challenge Mallorca",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116482592",
+    "eventLabel": "Wiki Explores Nadia - Phase II",
+    "date": "2023-01-23T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115923144",
+    "eventLabel": "211st Diet",
+    "date": "2023-01-23T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q114081320",
+    "eventLabel": "80e cérémonie des Golden Globes",
+    "date": "2023-01-10T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116183614",
+    "eventLabel": "2023 Guangzhou car attack",
+    "date": "2023-01-11T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116213506",
+    "eventLabel": "Shin Jidai 2023",
+    "date": "2023-01-13T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116240726",
+    "eventLabel": "traité d'amitié et de coopération entre la France et l’Espagne",
+    "date": "2023-01-19T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116206525",
+    "eventLabel": "Frappe aérienne du 14 janvier 2023 à Dnipro",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115605536",
+    "eventLabel": "2023 Kazakh Senate election",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116246018",
+    "eventLabel": "accident d'hélicoptère de 2023 à Brovary",
+    "date": "2023-01-18T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116205343",
+    "eventLabel": "vol Yeti Airlines 691",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116447988",
+    "eventLabel": "mort de Tyre Nichols",
+    "date": "2023-01-10T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116198414",
+    "eventLabel": "Murder of Péter Baumann",
+    "date": "2023-01-13T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116529172",
+    "eventLabel": "Second round of 2023 Czech presidential election",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116527702",
+    "eventLabel": "First round of 2023 Czech presidential election",
+    "date": "2023-01-13T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116264984",
+    "eventLabel": "2023 New Zealand Labour Party leadership election",
+    "date": "2023-01-22T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115518493",
+    "eventLabel": "2023 Democratic Progressive Party chairpersonship by-election",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q84026062",
+    "eventLabel": "élection présidentielle népalaise de 2023",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q114130194",
+    "eventLabel": "2023 Centre Party (Sweden) leadership election",
+    "date": "2023-02-02T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116485898",
+    "eventLabel": "attentat du 30 janvier 2023 à Peshawar",
+    "date": "2023-01-30T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115683123",
+    "eventLabel": "UFC Fight Night: Gastelum vs. Imavov",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q113613998",
+    "eventLabel": "UFC 283",
+    "date": "2023-01-21T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q112845625",
+    "eventLabel": "Snooker Shoot-Out 2023",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q112845046",
+    "eventLabel": "World Grand Prix 2023",
+    "date": "2023-01-16T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q112505250",
+    "eventLabel": "Masters d'Allemagne de snooker 2023",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q111915333",
+    "eventLabel": "Masters 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116060644",
+    "eventLabel": "Mexico City Metro train collision of 2023",
+    "date": "2023-01-07T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q111721418",
+    "eventLabel": "Championnats des quatre continents de patinage artistique 2023",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116432807",
+    "eventLabel": "shooting of Abby Zwerner",
+    "date": "2023-01-06T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116432807",
+    "eventLabel": "shooting of Abby Zwerner",
+    "date": "2023-01-06T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116453801",
+    "eventLabel": "death of Manuel Esteban Paez Terán",
+    "date": "2023-01-18T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115941150",
+    "eventLabel": "Décès et funérailles du pape Benoît XVI",
+    "date": "2023-01-05T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116588367",
+    "eventLabel": "Lab-Space: \"Quo vadis? Wie wirtschaften wir in Zukunft? Welche Rolle spielen Netzwerkökonomie, Kooperationen und Kollaborationen?“",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116449996",
+    "eventLabel": "Saratoga Investment Summit  2023",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116213465",
+    "eventLabel": "Wikipedia:Meetup/Sabah 10",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116213308",
+    "eventLabel": "Wikimeetup in Saint Petersburg 2023-01-15",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116207725",
+    "eventLabel": "Wikimeetup in Almaty 2023-01-15",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116207593",
+    "eventLabel": "Wikipedia:Meetup/Selangor 3",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116200110",
+    "eventLabel": "Wikimeetup in Astana 2023-01-14",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116187288",
+    "eventLabel": "Indonesia PE-VC Summit 2023",
+    "date": "2023-01-12T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116161696",
+    "eventLabel": "Wikimeetup in Almaty 2023-01-09",
+    "date": "2023-01-09T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116264859",
+    "eventLabel": "2023 Australia Day Honours",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116250881",
+    "eventLabel": "Wiki Loves Marche 2022 award ceremony",
+    "date": "2023-01-07T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116228826",
+    "eventLabel": "21st Golden Eagle Award",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116106584",
+    "eventLabel": "10e cérémonie des prix Feroz",
+    "date": "2023-01-28T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115703197",
+    "eventLabel": "Prix Gaudí 2023",
+    "date": "2023-01-22T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116527576",
+    "eventLabel": "Isaac Herzog in an official visit to the European Union in Brussels",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116592970",
+    "eventLabel": "Benidorm Fest 2023, first semi final",
+    "date": "2023-01-31T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116592940",
+    "eventLabel": "2023 Evansville shooting",
+    "date": "2023-01-20T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116586449",
+    "eventLabel": "2023 Omaha shooting",
+    "date": "2023-01-31T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116444923",
+    "eventLabel": "Brokstedt stabbing",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116432807",
+    "eventLabel": "shooting of Abby Zwerner",
+    "date": "2023-01-06T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116432807",
+    "eventLabel": "shooting of Abby Zwerner",
+    "date": "2023-01-06T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455185",
+    "eventLabel": "attentat du 27 janvier 2023 à Jérusalem",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116453532",
+    "eventLabel": "Algeciras church attacks",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115651366",
+    "eventLabel": "Patrimoine Beveren Athénée royal",
+    "date": "2023-01-30T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116227461",
+    "eventLabel": "World Economic Forum Annual Meeting 2023",
+    "date": "2023-01-16T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116444885",
+    "eventLabel": "Massacre de Makugwe",
+    "date": "2023-01-22T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116157301",
+    "eventLabel": "massacre de Juliaca",
+    "date": "2023-01-09T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115978146",
+    "eventLabel": "référendum constitutionnel liechtensteinois de 2023",
+    "date": "2023-01-29T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115253367",
+    "eventLabel": "Référendum slovaque de 2023",
+    "date": "2023-01-21T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116453656",
+    "eventLabel": "Chittagong Wikipedia meetup, January 2019",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116401377",
+    "eventLabel": "resignation of Jacinda Ardern",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115679925",
+    "eventLabel": "Forum de l'Énergie",
+    "date": "2023-01-07T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116550551",
+    "eventLabel": "Marshall McLuhan Lecture 2023",
+    "date": "2023-01-31T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116287123",
+    "eventLabel": "2023 Speaker of the Chamber of Deputies of Brazil election",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115822001",
+    "eventLabel": "2023 Speaker of the United States House of Representatives election",
+    "date": "2023-01-03T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q107015999",
+    "eventLabel": "Next Tripura Legislative Assembly election",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q106958035",
+    "eventLabel": "Next Meghalaya Legislative Assembly election",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115736363",
+    "eventLabel": "École d'hiver EnExDi 2023",
+    "date": "2023-01-23T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116142348",
+    "eventLabel": "Assaut du Congrès brésilien de 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q109265764",
+    "eventLabel": "Miss Univers 2022",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116009726",
+    "eventLabel": "Les Steam Awards 2022",
+    "date": "2023-01-03T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115730732",
+    "eventLabel": "58th Guldbagge 57th Guldbagge Awards",
+    "date": "2023-01-23T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115147530",
+    "eventLabel": "Wiki Loves Folklore 2023 in Bangladesh",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115147530",
+    "eventLabel": "Wiki Loves Folklore 2023 in Bangladesh",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115147530",
+    "eventLabel": "Wiki Loves Folklore 2023 in Bangladesh",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115147530",
+    "eventLabel": "Wiki Loves Folklore 2023 in Bangladesh",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116035865",
+    "eventLabel": "Reinado Internacional del Café 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115679925",
+    "eventLabel": "Forum de l'Énergie",
+    "date": "2023-01-07T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115804584",
+    "eventLabel": "25th Arabian Gulf Cup knockout stage",
+    "date": "2023-01-19T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115142095",
+    "eventLabel": "2022 Supercopa Uruguaya",
+    "date": "2023-01-29T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116180935",
+    "eventLabel": "2023 Nanchang County transport accident",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116172589",
+    "eventLabel": "Panne du système de la Federal Aviation Administration de 2023 aux États-Unis",
+    "date": "2023-01-11T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116143149",
+    "eventLabel": "Federal intervention in the Distrito Federal in 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116142348",
+    "eventLabel": "Assaut du Congrès brésilien de 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116142348",
+    "eventLabel": "Assaut du Congrès brésilien de 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116447133",
+    "eventLabel": "26 January 2023 nationwide missile strikes on Ukraine",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116207054",
+    "eventLabel": "14 January 2023 nationwide missile strikes on Ukraine",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116401377",
+    "eventLabel": "resignation of Jacinda Ardern",
+    "date": "2023-01-25T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116259622",
+    "eventLabel": "Q116259622",
+    "date": "2023-01-21T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116603633",
+    "eventLabel": "Q116603633",
+    "date": "2023-01-28T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116603633",
+    "eventLabel": "Q116603633",
+    "date": "2023-01-28T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115147919",
+    "eventLabel": "Feminism and Folklore 2023",
+    "date": "2023-02-01T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116207838",
+    "eventLabel": "Wikivoyage's 10th birthday",
+    "date": "2023-01-16T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116445103",
+    "eventLabel": "massacre du 26 janvier 2023 à Jénine",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116445103",
+    "eventLabel": "massacre du 26 janvier 2023 à Jénine",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116205343",
+    "eventLabel": "vol Yeti Airlines 691",
+    "date": "2023-01-15T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116269542",
+    "eventLabel": "Q116269542",
+    "date": "2023-01-16T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115817920",
+    "eventLabel": "Q115817920",
+    "date": "2023-01-05T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115754512",
+    "eventLabel": "24 Heures de Daytona 2023",
+    "date": "2023-01-28T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115683123",
+    "eventLabel": "UFC Fight Night: Gastelum vs. Imavov",
+    "date": "2023-01-14T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q113613998",
+    "eventLabel": "UFC 283",
+    "date": "2023-01-21T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116270722",
+    "eventLabel": "2023 Ramstein Air Base meeting",
+    "date": "2023-01-20T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116262896",
+    "eventLabel": "Public Domain Day 2023",
+    "date": "2023-01-13T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116286589",
+    "eventLabel": "IDF chiefs of Staff change of command ceremony",
+    "date": "2023-01-16T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116455499",
+    "eventLabel": "2023 Auckland floods",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116363102",
+    "eventLabel": "Q116363102",
+    "date": "2023-01-21T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116303652",
+    "eventLabel": "Q116303652",
+    "date": "2023-01-19T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116250059",
+    "eventLabel": "Q116250059",
+    "date": "2023-01-11T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116107010",
+    "eventLabel": "The Awakening - Leeds 2023",
+    "date": "2023-01-07T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116034002",
+    "eventLabel": "2023 Enoch, Utah shooting",
+    "date": "2023-01-04T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116440832",
+    "eventLabel": "2023 Delhi Republic Day parade",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116552678",
+    "eventLabel": "7th Urbanisation and Poverty Reduction Research Conference",
+    "date": "2023-01-30T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116450035",
+    "eventLabel": "GPRC Summit 2023",
+    "date": "2023-01-23T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116550551",
+    "eventLabel": "Marshall McLuhan Lecture 2023",
+    "date": "2023-01-31T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116060644",
+    "eventLabel": "Mexico City Metro train collision of 2023",
+    "date": "2023-01-07T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116603633",
+    "eventLabel": "Q116603633",
+    "date": "2023-01-28T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116603633",
+    "eventLabel": "Q116603633",
+    "date": "2023-01-28T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116268247",
+    "eventLabel": "Q116268247",
+    "date": "2023-01-19T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116142348",
+    "eventLabel": "Assaut du Congrès brésilien de 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116142348",
+    "eventLabel": "Assaut du Congrès brésilien de 2023",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116445103",
+    "eventLabel": "massacre du 26 janvier 2023 à Jénine",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116445103",
+    "eventLabel": "massacre du 26 janvier 2023 à Jénine",
+    "date": "2023-01-26T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116257315",
+    "eventLabel": "Der Freischütz (Papiertheater Invisius) 2023-01-08 18:00",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116151119",
+    "eventLabel": "Der Freischütz (Papiertheater Invisius) 2023-01-08 15:00",
+    "date": "2023-01-08T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116456768",
+    "eventLabel": "Manifestations consécutives à la mort de Tyre Nichols",
+    "date": "2023-01-27T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116004063",
+    "eventLabel": "2023 Peruvian protests",
+    "date": "2023-01-04T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115941150",
+    "eventLabel": "Décès et funérailles du pape Benoît XVI",
+    "date": "2023-01-05T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115941150",
+    "eventLabel": "Décès et funérailles du pape Benoît XVI",
+    "date": "2023-01-05T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116250881",
+    "eventLabel": "Wiki Loves Marche 2022 award ceremony",
+    "date": "2023-01-07T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115941150",
+    "eventLabel": "Décès et funérailles du pape Benoît XVI",
+    "date": "2023-01-05T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q115941150",
+    "eventLabel": "Décès et funérailles du pape Benoît XVI",
+    "date": "2023-01-05T00:00:00Z"
+  },
+  {
+    "event": "http://www.wikidata.org/entity/Q116257329",
+    "eventLabel": "2023 fire in Armenian military barracks",
+    "date": "2023-01-19T00:00:00Z"
+  }
+]

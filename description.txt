@@ -1,0 +1,103 @@
+from rdflib import Graph , Literal, RDF, URIRef
+from pyparsing import ParseException
+from rdflib.namespace import RDF
+from mapper import Mapper
+import log
+import validators
+from cache import Cache
+from config import Config
+
+"""_summary_
+    Import spacy 
+"""
+
+class Processing: 
+    """
+        increases all received objects
+    """
+    def __init__(self, graph=None, objects=[], config={}):
+        self.config = config if config else Config().load() 
+        self.graph = graph
+        self.objects = objects
+
+    def clean(self, text=''):
+        output = text
+        if any(not c.isalnum() for c in text) :
+            output = ''
+        return output
+    
+    def indexing(self, uri=''):
+        return Cache().get_ressource(uri=uri)
+
+    def update_graph(self, graph=None, _subject='', _predicate='', _old_object='', _new_object=''):
+        """[updates the value of the old object with the new]
+
+        Args:
+            _subject (str): [the subject's value].
+            _predicate (str): [the predicate's value].
+            _old_object (str): [the old object's value].
+            _new_object (str): [the new object's value].
+        Returns:
+            [obj]: [obj]
+        """
+        fork_data = """INSERT DATA { <?subject>  <?predicate>    ?object }"""
+        query = """
+            DELETE { <?subject>  <?predicate>    ?old_object .  }
+            INSERT {    <?subject>  <?predicate>    ?object .   }
+            WHERE   { 
+                <?subject>  <?predicate>    ?old_object .
+            }
+            """
+        query = query.replace('?subject', _subject).replace('?predicate',  _predicate)
+        fork_data = fork_data.replace('?subject', _subject).replace('?predicate',  _predicate)
+                
+        if validators.url(_old_object) : 
+            query = query.replace('?old_object', '<' + _old_object + '>')
+        else :
+            query = query.replace('?old_object', '"' + _old_object + '"')
+        
+        if validators.url(_new_object) : 
+            fork_data = fork_data.replace('?object', '<' + _new_object + '>')
+            query = query.replace('?object', '<' + _new_object + '>')
+        else :
+            fork_data = fork_data.replace('?object', '"' + _new_object + '"')
+            query = query.replace('?object', '"' + _new_object + '"')
+        
+        # fork_data_result = graph.update(fork_data)
+        query_result = None
+        try:
+            query_result = graph.update(query)
+        except ParseException as _ :
+            print('Exception during updating graph')
+            log.critical('Exception during updating graph')
+        return query_result
+
+    def run(self):
+        copy_objects = self.objects
+        graph = self.graph
+        for _object in copy_objects : 
+            tmp_object = self.increase(_object=_object)
+            copy_objects[_object]['value'] = tmp_object
+        for _object in copy_objects : 
+            # update graph
+            for _subject, _predicate in list(zip(copy_objects[_object]['subjects'], copy_objects[_object]['predicates'])):
+                try:
+                    _new_object = copy_objects[_object]['value'] # [{ p: v, o: v' }, ...]
+                    # print('old object >> ', _object, ' new_object > ', _new_object)
+                    _values = _new_object
+                    if not isinstance(_values, list):
+                        result = self.update_graph(graph=graph, _subject=_subject, _predicate=_predicate, _old_object=str(_object), _new_object=str(_values))
+                        # print('L : Graph updated >> ', result, ' >> From subject ', _subject)
+                    else: 
+                        for (t_predicate, t_object) in _values : 
+                            result = self.update_graph(graph=graph, _subject=_subject, _predicate=t_predicate, _old_object=str(_object), _new_object=str(t_object))
+                        #    print('U : Graph updated >> ', result, ' >> From subject ', _subject)
+                # exit()
+                except Exception as _:
+                    print(_subject, '\t ', _predicate,'\t', copy_objects[_object]['value'], ' : #Error while updating the graph')                       
+        return graph
+
+# result = Processing().indexing(uri='http://purl.obolibrary.org/obo/TO_0000691')
+
+# result = Processing().increase(_object='http://purl.obolibrary.org/obo/TO_0000691')
+# print(result)

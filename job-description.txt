@@ -1,0 +1,10 @@
+1. clone le projet sur le noeud de calcul 
+
+2. tout effacer le contenu du dossier 'inputs et outputs'
+
+3. copier les données d'agrold dans le dossier 'inputs' du projet cloné
+
+4. lancer le projet sur les données copiées 
+
+# 5. copier le resultat 'outputs' dans  '/data/projects/augmentation'
+
